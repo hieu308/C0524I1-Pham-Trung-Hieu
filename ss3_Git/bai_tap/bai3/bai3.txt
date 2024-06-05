@@ -1,0 +1,15 @@
+Bài 3                                                
+
+BEGIN                                                          
+  INPUT a,b,c                                        
+  If a > b                                             
+     If a > c                                          
+        display "a là số lớn  nhất"                 
+     else 
+        display"c là số lớn nhất"                   
+  else
+     If b > c                                     
+         display"b là số lớn nhất" 
+     else                                               
+         display"c là số lớn nhất"                     
+END         
