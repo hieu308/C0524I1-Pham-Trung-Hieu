@@ -4,12 +4,13 @@ BEGIN
    INPUT grades
    If grades => 75
       display"Loại A"
-    else  grades => 60
+    elseIf  grades => 60
           display"Loại B"
-    else  grades => 45
+    elseIf  grades => 45
       display"Loại C"
-    else  grades => 35
+    elseIf  grades => 35
       display"Loại D"
-    else  grades < 35
+    elseIf  grades < 35
       display"Loại E"
+    EndIf
 END
