@@ -1,0 +1,32 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+
+    font-size: 75px;
+
+
+  text-align: center;
+
+}
+table{
+
+    width: 70%;
+    height: 60%;
+margin: 0 auto;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    height:130px;
+    font-size: 40px;
+    background-color: #fefb00;
+}
+td{
+    font-size: 30px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
