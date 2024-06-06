@@ -1,0 +1,52 @@
+.th{
+    border: 1px solid black;
+}
+.th2{
+    text-align: left;
+    padding-left: 6px;
+}
+
+.td{
+    text-align: center;
+    width: 125px;
+    border: 1px solid black;
+
+
+}
+table, .th, .td{
+    border-collapse: collapse;
+}
+.tg{
+    background: #e6e6e6;
+}
+.dola{
+    width: 90px;
+}
+.cent{
+    width: 20px;
+}
+h4{
+    margin-bottom: 5px;
+}
+h1{
+    margin-bottom: 2px;
+}
+.desc{
+    width:917px;
+    height: 119px;
+}
+.money{
+    margin-top: -10px;
+}
+.btn{
+    margin-top: 10px;
+}
+hr{
+    width: 900px;
+    margin-left:0px;
+    margin-top: 24px;
+}
+.hd{ margin-top: 5px}
+.head{
+    height: 46px;
+}
