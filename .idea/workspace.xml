@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_git_html/baitap_html/html/bai2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_git_html/baitap_html/html/bai2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss4_git_html/baitap_html/html/bai1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss4_git_html/baitap_html/html/bai2/img/kal-visuals-aK4iPNYipnU-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss4_git_html/baitap_html/html/bai2/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,8 @@
       <updated>1717552140725</updated>
       <workItem from="1717552141796" duration="7846000" />
       <workItem from="1717561718926" duration="1367000" />
-      <workItem from="1717577404966" duration="2754000" />
+      <workItem from="1717577404966" duration="3356000" />
+      <workItem from="1717641125822" duration="1432000" />
     </task>
     <servers />
   </component>
