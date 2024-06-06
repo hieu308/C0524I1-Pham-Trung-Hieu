@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_4/CSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_4/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap_form/bai_1/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap_form/bai_3/form_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap_form/bai_3/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1717577404966" duration="3356000" />
       <workItem from="1717641125822" duration="8114000" />
       <workItem from="1717664502846" duration="4334000" />
-      <workItem from="1717676753529" duration="6147000" />
+      <workItem from="1717676753529" duration="12460000" />
     </task>
     <servers />
   </component>
