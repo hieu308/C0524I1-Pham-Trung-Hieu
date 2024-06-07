@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_2/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5/css.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\C0524I1-JV101_Pham_Trung_Hieu\module1\ss4_git_html\baitap_html\html\bai2\img" />
@@ -78,6 +80,12 @@
       <workItem from="1717641125822" duration="8114000" />
       <workItem from="1717664502846" duration="4334000" />
       <workItem from="1717676753529" duration="12460000" />
+      <workItem from="1717690392163" duration="816000" />
+      <workItem from="1717721571326" duration="13477000" />
+      <workItem from="1717749144554" duration="1985000" />
+      <workItem from="1717751986506" duration="1879000" />
+      <workItem from="1717754226281" duration="1273000" />
+      <workItem from="1717758960098" duration="10113000" />
     </task>
     <servers />
   </component>

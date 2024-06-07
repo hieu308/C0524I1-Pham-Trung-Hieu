@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    position: relative;
+
+}
+
+.table {
+    position: absolute;
+    width: 95%;
+    height: 494px;
+    background-color: white;
+    top: 100px;
+    left: 34px;
+
+}
+
+P {
+    width: 98%;
+    background-color: #ff4c00;
+    margin: 10px 11px;
+    height: 14%;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f7;
+
+}
+
+.n {
+    font-size: 35px;
+    color: #0e4a8b;
+
+}
+.e{
+    margin-left: 0;
+}
+
+.input_name {
+    height: 50px;
+    width: 610px;
+    margin-left: 20px;
+    font-size: 30px;
+
+}
+
+.name {
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+}
+
+.email {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.input_email {
+    margin-left: 89px;
+}
+
+.hobby {
+    width: 100%;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 20px;
+
+}
+
+table {
+    width: 965px;
+    height: 201px;
+    background-color: white;
+    margin-left: 1px;
+    border-spacing: 5px;
+}
+
+
+
+td {
+    text-align: center;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.checkbox-container label {
+    cursor: pointer;
+    display: flex;
+}
+
+.checkbox-container input[type=checkbox] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-container label::before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    border: 1px solid black;
+    margin-right: .5em;
+    box-shadow:inset 4px 4px 5px -4px black;
+
+}
+
+.checkbox-container input[type=checkbox]:checked + label::before {
+    background-color: #0e4a8b;
+    content: "\002714";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+label {
+    user-select: none;
+    font-size: 30px;
+    color: #9f502b;
+}
+
+.t1 {
+    margin-left: 173px;
+}
+
+.t2 {
+    margin-left: 140px;
+}
+.input{
+    width: 254px;
+    height: 52px;
+    margin-left: 294px;
+    font-size: 28px;
+}
+.input_2{
+    width: 185px;
+    height: 52px;
+    font-size: 28px;
+    margin-left: 20px;
+}
+input{
+    box-shadow:   inset 4px 4px 5px -4px;
+}
+.btn{
+    box-shadow:    5px 5px 5px -4px;
+}
