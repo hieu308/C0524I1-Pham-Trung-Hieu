@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5_2/bai_5_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_5_2/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_2/bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap_form_table/bai_2/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +82,7 @@
       <workItem from="1717754226281" duration="1273000" />
       <workItem from="1717758960098" duration="10113000" />
       <workItem from="1717769228592" duration="89000" />
-      <workItem from="1717824635153" duration="8236000" />
+      <workItem from="1717824635153" duration="9085000" />
     </task>
     <servers />
   </component>
