@@ -19,7 +19,7 @@
     height: 494px;
     background-color: white;
     top: 100px;
-    left: 34px;
+    left: 30px;
 
 }
 
@@ -41,7 +41,8 @@ P {
     color: #0e4a8b;
 
 }
-.e{
+
+.e {
     margin-left: 0;
 }
 
@@ -85,7 +86,6 @@ table {
 }
 
 
-
 td {
     text-align: center;
 }
@@ -113,17 +113,19 @@ td {
     height: 28px;
     border: 1px solid black;
     margin-right: .5em;
-    box-shadow:inset 4px 4px 5px -4px black;
+    box-shadow: inset 4px 4px 5px -4px black;
 
 }
 
 .checkbox-container input[type=checkbox]:checked + label::before {
     background-color: #0e4a8b;
     content: "\002714";
+
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+
 }
 
 label {
@@ -139,21 +141,25 @@ label {
 .t2 {
     margin-left: 140px;
 }
-.input{
+
+.input {
     width: 254px;
     height: 52px;
     margin-left: 294px;
     font-size: 28px;
 }
-.input_2{
+
+.input_2 {
     width: 185px;
     height: 52px;
     font-size: 28px;
     margin-left: 20px;
 }
-input{
-    box-shadow:   inset 4px 4px 5px -4px;
+
+input {
+    box-shadow: inset 4px 4px 5px -4px;
 }
-.btn{
-    box-shadow:    5px 5px 5px -4px;
+
+.btn {
+    box-shadow: 5px 5px 5px -4px;
 }

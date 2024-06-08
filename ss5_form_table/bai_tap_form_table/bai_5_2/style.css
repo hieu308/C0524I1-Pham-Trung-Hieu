@@ -1,0 +1,77 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    color: #0333ff;
+    margin-top: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: -15px auto 0;
+    height: 80%;
+    width: 92%;
+
+}
+
+.tr_3 th, .tr_4 th, .tr_5 th, .tr_6 th, .tr_7 th {
+    border: 4px ridge #a5a5a5;
+
+}
+
+
+th {
+    height: 14%;
+    width: 14%;
+    font-size: 30px;
+    border: none;
+}
+
+.tr_1 th {
+    background-color: #ffb400;
+    color: white;
+    border: 2px solid white;
+
+}
+
+
+.tr_2 th {
+    font-size: 40px;
+    font-weight: 20;
+}
+
+th:last-child {
+    color: #0333ff;
+}
+
+.tr_1 th:last-child {
+    background-color: #0333ff;
+    color: white;
+}
+
+th:nth-child(1) {
+    color: red;
+}
+
+.tr_1 th:first-child {
+    background-color: red;
+    color: #f7f7f7;
+}
+
+.tr_4 th,
+.tr_5 th,
+.tr_6 th,
+.tr_7 th,
+.tr_3 th {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+sub {
+    font-size: 20px;
+    color: black;
+}
