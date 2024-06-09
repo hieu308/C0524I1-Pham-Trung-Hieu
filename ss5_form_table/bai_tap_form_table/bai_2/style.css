@@ -113,7 +113,7 @@ td {
     height: 28px;
     border: 1px solid black;
     margin-right: .5em;
-    box-shadow: inset 4px 4px 5px -4px black;
+    box-shadow: inset 2px 4px 4px -4px black;
 
 }
 
@@ -157,7 +157,7 @@ label {
 }
 
 input {
-    box-shadow: inset 4px 4px 5px -4px;
+    box-shadow: inset 2px 4px 4px -4px;
 }
 
 .btn {
