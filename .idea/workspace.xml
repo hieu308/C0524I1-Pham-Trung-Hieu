@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/bai_1/ss9_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/bai_2/ss9_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_1/bai_1/lt_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_1/bai_2/tl_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_1/bai_3/tl_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_1/bai_4/tl_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_1/bai_5/tl_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_1/bai_6/tl_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_cau_dieu_kien_2/luyen_tap_cau_truc_dieu_kien_1/bai_7/tl_7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu/bai_1/bai_1_1/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu/bai_1/bai_1_1/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu/bai_3/bai_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_kieu_du_lieu/bai_3/js3.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
         <option value="HTML File" />
       </list>
     </option>
@@ -99,7 +102,7 @@
       <workItem from="1718008209309" duration="6309000" />
       <workItem from="1718020354526" duration="1035000" />
       <workItem from="1718021431938" duration="986000" />
-      <workItem from="1718067304577" duration="1216000" />
+      <workItem from="1718067304577" duration="8032000" />
     </task>
     <servers />
   </component>

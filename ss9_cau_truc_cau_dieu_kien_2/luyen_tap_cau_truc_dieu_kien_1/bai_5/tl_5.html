@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+    let a = Number(prompt("Nhập điểmm bài kiểm tra trên thang điểm 10:"))
+    let b = Number(prompt("Nhập điểmm thi giữa kỳ trên thang điểm 10:"))
+    let c = Number(prompt("Nhập điểmm thi cuối kỳ trên thang điểm 10:"))
+    let result=(a+b+c)/3
+    result=(result).toFixed(2)
+    if(result < 5){
+        alert(`Học sinh kém`)
+
+    }else if(result>=5 && result <= 7){
+
+        alert(`Học sinh trung bình`)
+    } else if(result>7 && result < 9){
+
+        alert(`Học sinh khá`)
+    }else if(result>=9 && result <= 10){
+
+        alert(`Học sinh giỏi`)
+    }
+</script>
+</body>
+</html>
