@@ -2,6 +2,10 @@ let a = parseInt(prompt("Nhập điểm môn vật ly:"))
 let b = parseInt(prompt("Nhập điểm môn hoá học:"))
 let c = parseInt(prompt("Nhập điểm môn sinh học:"))
 
+while(
+    !Number.isInteger(a) || a < 0){
+        a = parseInt(prompt("Nhập điểm môn vật ly 2 3:"))
+    }
 
 
 
