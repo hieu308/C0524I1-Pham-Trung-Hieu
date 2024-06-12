@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+    let input = +prompt("Nhập số KWh điện tiêu thụ trong một tháng ")
+    let price;
+    while(!input || input<=0){
+        alert("mời nhập đúng số kwh điện")
+        input = +prompt("Nhập số KWh điện tiêu thụ trong một tháng ")
+    } if(input <= 50){
+        price = input*2000
+        alert((`Số tiền điện tháng này là: ${price}  VNĐ`))
+    }else if(input >= 50 && input <= 100){
+        price = input*2500
+        alert((`Số tiền điện tháng này là: ${price}  VNĐ`))
+    }else if(input > 100 && input<= 200){
+        price = input*3000
+        alert((`Số tiền điện tháng này là: ${price}  VNĐ`))
+    }else if(input > 200 && input<= 300){
+        price = input*4000
+        alert((`Số tiền điện tháng này là: ${price}  VNĐ`))
+    }else if(input > 300){
+        price = input*5000
+        alert((`Số tiền điện tháng này là: ${price}  VNĐ`))
+    }
+</script>
+</body>
+</html>

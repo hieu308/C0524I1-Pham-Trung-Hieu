@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <h1>Caculator</h1>
+    <input type="number" id="firstNumber">
+    <input type="number" id="secondNumber"> <br> <br>
+    <button onclick="calculate(this.id)" type="button" id="add">Addition(+)</button>
+    <button onclick="calculate(this.id)" type="button" id="sub">Subtraction(-)</button>
+    <button onclick="calculate(this.id)" type="button" id="multi">Multiplication(x)</button>
+    <button onclick="calculate(this.id)" type="button" id="division">Division(/)</button>
+    <input type="reset">
+    <h1>Result: <span id="display"></span></h1>
+</form>
+<script>
+
+
+    function calculate(operation){
+        let numberOne=+document.getElementById("firstNumber").value
+        let numberTwo=+document.getElementById("secondNumber").value
+
+        let result
+        if(!numberOne  && !numberTwo){
+            document.getElementById("display").innerHTML = `Nhập số vào anh zai`
+        }
+        else if(operation==="add") {
+            result = numberOne + numberTwo;
+            document.getElementById("display").innerHTML = result
+        }else if(operation==="sub") {
+            result = numberOne - numberTwo;
+            document.getElementById("display").innerHTML = result
+        }else if(operation==="multi") {
+            result = numberOne * numberTwo;
+            document.getElementById("display").innerHTML = result
+        }else if(operation==="division") {
+            result = numberOne / numberTwo;
+            document.getElementById("display").innerHTML = result
+        }
+    }
+</script>
+</body>
+</html>
