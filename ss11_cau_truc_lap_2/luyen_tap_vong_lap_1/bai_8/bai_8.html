@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="button" onclick="start()">Bắt đầu</button>
+<script>
+    function start() {
+        let inputNumber = parseInt(prompt("Số bạn muốn đoán trong khoảng lớn nhất là bao nhiêu"));
+        let guessNumber = parseInt(prompt("Nhập số bạn đoán"));
+        let number = Math.floor(Math.random() * (inputNumber + 1))
+        let count = 0;
+        while (true) {
+            if (guessNumber > number) {
+                alert("Số bạn đoán lớn hơn số được chọn ")
+                guessNumber = parseInt(prompt("Nhập số bạn đoán"));
+                count++
+            } else if (guessNumber < number) {
+                alert("Số bạn đoán bé hơn số được chọn ")
+                guessNumber = parseInt(prompt("Nhập số bạn đoán"));
+                count++
+            } else if (guessNumber === number) {
+                alert("chúc mừng bạn đã đoán đúng")
+                break
+            }
+            if (count === 3) {
+                alert("bạn đã hết lượt đoán")
+                break
+            }
+        }
+    }
+</script>
+</body>
+</html>

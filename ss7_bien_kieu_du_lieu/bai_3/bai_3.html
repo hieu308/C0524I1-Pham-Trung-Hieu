@@ -19,26 +19,25 @@
 <script>
 
 
-    function calculate(operation){
-        let numberOne=+document.getElementById("firstNumber").value
-        let numberTwo=+document.getElementById("secondNumber").value
+    function calculate(operation) {
+        let numberOne = +document.getElementById("firstNumber").value;
+        let numberTwo = +document.getElementById("secondNumber").value;
 
-        let result
-        if(!numberOne  && !numberTwo){
+        let result;
+        if (!numberOne && !numberTwo) {
             document.getElementById("display").innerHTML = `Nhập số vào anh zai`
-        }
-        else if(operation==="add") {
+        } else if (operation === "add") {
             result = numberOne + numberTwo;
-            document.getElementById("display").innerHTML = result
-        }else if(operation==="sub") {
+            document.getElementById("display").innerHTML = result;
+        } else if (operation === "sub") {
             result = numberOne - numberTwo;
-            document.getElementById("display").innerHTML = result
-        }else if(operation==="multi") {
+            document.getElementById("display").innerHTML = result;
+        } else if (operation === "multi") {
             result = numberOne * numberTwo;
-            document.getElementById("display").innerHTML = result
-        }else if(operation==="division") {
+            document.getElementById("display").innerHTML = result;
+        } else if (operation === "division") {
             result = numberOne / numberTwo;
-            document.getElementById("display").innerHTML = result
+            document.getElementById("display").innerHTML = result;
         }
     }
 </script>

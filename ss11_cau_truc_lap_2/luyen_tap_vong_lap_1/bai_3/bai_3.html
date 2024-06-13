@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+    let f1 = 0, f2 = 1, temp;
+
+    while (true) {
+
+        if (f1 % 5 === 0 && f1 !== 0) {
+            console.log(f1);
+            break
+        }
+        temp = f1 + f2;
+        f1 = f2;
+        f2 = temp;
+    }
+</script>
+</body>
+</html>
