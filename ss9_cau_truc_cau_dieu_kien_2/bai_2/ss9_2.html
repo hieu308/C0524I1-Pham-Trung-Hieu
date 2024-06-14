@@ -5,21 +5,21 @@
     <title>Title</title>
 </head>
 <body>
-<p style="font-size: 30px"> <b>Kieme tra số ngày trong tháng</b></p>
+<p style="font-size: 30px"> <b>Kiểm tra số ngày trong tháng</b></p>
 
-<form action="">
+
     <input type="number" placeholder="Nhập tháng" id="input">
 
-    <button type="button" onclick="doSth()">Kiểm tra</button>
-    <input type="reset" onclick="doAgain()">
+    <button type="button" onclick="check()">Kiểm tra</button>
+<!--    <input type="reset" onclick="doAgain()">-->
     <p id ="display"></p>
-</form>
+
 <script>
 
-    function doSth (){
+    function check (){
         let month=document.getElementById("input").value;
 
-        month=parseInt(month)
+        month=parseInt(month);
 
         switch (month) {
             case 1:
@@ -29,26 +29,26 @@
             case 8:
             case 10:
             case 12:
-                document.getElementById("display").innerHTML=`Tháng ${month} có 31 ngày`
+                document.getElementById("display").innerHTML=`Tháng ${month} có 31 ngày`;
                 break;
 
             case 4:
             case 6:
             case 9:
             case 11:
-                document.getElementById("display").innerHTML=`Tháng ${month} có 30 ngày`
+                document.getElementById("display").innerHTML=`Tháng ${month} có 30 ngày`;
                 break;
             case 2:
-                document.getElementById("display").innerHTML=`Tháng 2 có 28 ngày hoặc 29 ngày`
+                document.getElementById("display").innerHTML=`Tháng 2 có 28 ngày hoặc 29 ngày`;
                 break;
             default:
-                document.getElementById("display").innerHTML=`Tháng không hợp lệ`
+                document.getElementById("display").innerHTML=`Tháng không hợp lệ`;
         }
     }
-    function doAgain() {
-        document.getElementById("display").innerHTML=""
-
-    }
+    // function doAgain() {
+    //     document.getElementById("display").innerHTML="";
+    //
+    // }
 
 </script>
 </body>

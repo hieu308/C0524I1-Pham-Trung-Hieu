@@ -6,10 +6,14 @@
 </head>
 <body>
 
-<script >
-    let C = parseInt(prompt("Nhập độ C:"))
-    let F = (C * 9/5 + 32).toFixed(2)
-    alert(`${C} độ C bằng ${F} F `)
+<script>
+    let C = parseInt(prompt("Nhập độ C:"));
+    if(C/C===1){
+
+    let F = (C * 9 / 5 + 32).toFixed(2);
+    alert(`${C} độ C bằng ${F} F `);}else{
+        alert("mời nhập đúng ");
+    }
 
 </script>
 </body>

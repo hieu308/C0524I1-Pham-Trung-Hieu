@@ -6,9 +6,14 @@
 </head>
 <body>
 <script >
-    let m = parseInt(prompt("Nhập m:"))
-    let ft = (m* 3.2808).toFixed(2)
-    alert(`$m} m bằng ${ft} ft `)
+    let m = parseInt(prompt("Nhập m:"));
+    if(isNaN(m) || m<0){
+       alert("không đạt điều kiện");
+    }else{
+        let ft = (m* 3.2808).toFixed(2);
+        alert(`${m} m bằng ${ft} ft `);
+    }
+
 
 </script>
 </body>

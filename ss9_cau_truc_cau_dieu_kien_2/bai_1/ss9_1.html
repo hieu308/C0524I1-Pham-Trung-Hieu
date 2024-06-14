@@ -5,36 +5,38 @@
     <title>Title</title>
 </head>
 <body>
-<p style="font-size: 30px"> <b>Tính chỉ số cân nặng</b></p>
+<p style="font-size: 30px"><b>Tính chỉ số cân nặng</b></p>
 
 <form action="">
     Nhập cân nặng: (kg) <input type="text" id="kg"> <br> <br>
     Nhập chiều cao: (m) <input type="text" id="m"> <br> <br>
 
-    <button type="button" onclick="doSth()">Kiểm tra</button>
+    <button type="button" onclick="calculateBmi()">Kiểm tra</button>
     <input type="reset">
-    <p id ="display"></p>
+    <p id="display"></p>
 </form>
 <script>
 
-    function doSth (){
-        let a=document.getElementById("kg").value;
-        let b=document.getElementById("m").value;
-        if(a === "" || b ===""){
-            document.getElementById("display").innerHTML="Vui lòng nhập chiều cao cân nặng"
+    function calculateBmi() {
+        let a = document.getElementById("kg").value;
+        let b = document.getElementById("m").value;
+        if (a === "" || b === "") {
+            document.getElementById("display").innerHTML = "Vui lòng nhập chiều cao cân nặng";
         }
-        let bmi = (a/b).toFixed(2);
-        console.log(bmi);
-        if(bmi< 18.5){
-            document.getElementById("display").innerHTML="Underweight: Đề nghị ăn nhiều nhiều vô"
-        }else if(bmi>=18.5 && bmi<=25.0){
-            document.getElementById("display").innerHTML="Normal: bình thường khoẻ mạnh"
-        }else if(bmi>=25.0 && bmi<=30.0){
-            document.getElementById("display").innerHTML="Overweight:hơi mập rồi đó"
-        }else if(bmi>=30.0){
-            document.getElementById("display").innerHTML="Obese: mập như con heo bớt bớt ăn lại đi"
+        let bmi = (a / (b*b)).toFixed(2);
+
+        if (bmi < 18.5) {
+            document.getElementById("display").innerHTML = "Underweight: Đề nghị ăn nhiều nhiều vô";
+        } else if (bmi >= 18.5 ) {
+            document.getElementById("display").innerHTML = "Normal: bình thường khoẻ mạnh";
+        } else if (bmi >= 25.0 ) {
+            document.getElementById("display").innerHTML = "Overweight:hơi mập rồi đó";
+        } else  {
+            document.getElementById("display").innerHTML = "Obese: mập như con heo bớt bớt ăn lại đi";
         }
     }
+
+
 
 </script>
 </body>

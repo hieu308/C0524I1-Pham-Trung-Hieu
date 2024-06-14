@@ -7,20 +7,20 @@
 <body>
 <script>
     let fee = 25000;
-    let call=parseInt(prompt("Nhập số phút gọi:"));
+    let call = parseInt(prompt("Nhập số phút gọi:"));
     let charge;
- while(!Number.isInteger(call)){
-     call=parseInt(prompt("Nhập đúng số phút gọi đi anh zai:"))
- }
-    if(call <= 50){
-        charge= fee+call*600
-        alert(`Giá cước điện thoại của gia đình bạn là: ${charge}`)
-    } else if(call > 50 && call <= 200){
-        charge=fee+call*400
-        alert(`Giá cước điện thoại của gia đình bạn là: ${charge}`)
-    } else if(call > 200 ){
-        charge=fee+call*200
-        alert(`Giá cước điện thoại của gia đình bạn là: ${charge}`)
+    while (!Number.isInteger(call)) {
+        call = parseInt(prompt("Nhập đúng số phút gọi :"));
+    }
+    if (call <= 50) {
+        charge = fee + call * 600
+        alert(`Giá cước điện thoại của gia đình bạn là: ${charge}`);
+    } else if (call > 50 && call <= 200) {
+        charge = fee + call * 400
+        alert(`Giá cước điện thoại của gia đình bạn là: ${charge}`);
+    } else if (call > 200) {
+        charge = fee + call * 200
+        alert(`Giá cước điện thoại của gia đình bạn là: ${charge}`);
     }
 </script>
 

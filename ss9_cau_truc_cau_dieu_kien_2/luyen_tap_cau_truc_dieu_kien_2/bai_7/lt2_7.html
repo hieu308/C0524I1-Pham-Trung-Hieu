@@ -5,23 +5,24 @@
     <title>Title</title>
 </head>
 <body>
-<script >
-    let a = +prompt(" nhập số a:"  );
+<script>
+    let a = +prompt(" nhập số a:");
     let b = +prompt(" nhập số b:");
     let c = +prompt(" nhập số c:");
-    while  (a === 0){
-        a = +prompt(" nhập lại số a đi anh trai điều kiện khác 0 a zai:")
+    while (a === 0) {
+        a = +prompt(" nhập lại số a đi anh trai điều kiện khác 0 a zai:");
     }
-    let delta = b*b - 4*a*c;
-    if(delta < 0){
-        alert(`Phương trình vô nghiệm anh zai `)
-    } else if(delta === 0){
-        alert(`Phương trình có nghiệm kép x1 = x2 = ${-b/(2*a)}`)
+    let delta = b * b - 4 * a * c;
+    if (delta < 0) {
+        alert(`Phương trình vô nghiệm anh zai `);
+    } else if (delta === 0) {
+        alert(`Phương trình có nghiệm kép x1 = x2 = ${-b / (2 * a)}`);
     } else {
         alert(`Phương trình có  2 nghiệm
-        x1 =  ${(-b-Math.sqrt(delta))/2*a}
-        x2 =  ${(-b+Math.sqrt(delta))/2*a}`)
+        x1 =  ${(-b - Math.sqrt(delta)) / 2 * a};
+        x2 =  ${(-b + Math.sqrt(delta)) / 2 * a}`);
     }
 </script>
 </body>
+;
 </html>

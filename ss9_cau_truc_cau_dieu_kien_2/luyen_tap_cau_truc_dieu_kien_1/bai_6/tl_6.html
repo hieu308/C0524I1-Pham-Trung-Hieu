@@ -5,11 +5,25 @@
     <title>Title</title>
 </head>
 <body>
-<script >
-    let income = parseInt(prompt("Nhập doanh thu:"));
-    let commission = 0.1;
-    let profit = income*commission;
-    alert(`Hoa hồng của bạn là: ${profit} VND`)
+<script>
+    let sale = parseInt(prompt("Nhập doanh thu $:"));
+    let commission;
+
+    if (sale >= 8000) {
+
+        commission = sale * 10 / 100;
+        alert(`hoa hồng là ${commission} usd`);
+    } else if (sale >= 3000) {
+
+        commission = sale * 7 / 100;
+        alert(`hoa hồng là ${commission} usd`);
+    } else if (sale >= 1000) {
+
+        commission = sale * 5 / 100;
+        alert(`hoa hồng là ${commission} usd`);
+    } else {
+        alert("Ăn mì tôm");
+    }
 </script>
 </body>
 </html>

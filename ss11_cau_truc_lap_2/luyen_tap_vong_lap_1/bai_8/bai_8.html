@@ -8,25 +8,36 @@
 <button type="button" onclick="start()">Bắt đầu</button>
 <script>
     function start() {
-        let inputNumber = parseInt(prompt("Số bạn muốn đoán trong khoảng lớn nhất là bao nhiêu"));
-        let guessNumber = parseInt(prompt("Nhập số bạn đoán"));
-        let number = Math.floor(Math.random() * (inputNumber + 1))
+        let inputNumber = +(prompt("Số bạn muốn đoán trong khoảng lớn nhất là bao nhiêu"));
+        while (!inputNumber || inputNumber === 0) {
+            inputNumber = +(prompt("Vui lòng nhập đúng kiểu số "));
+        }
+        let guessNumber = +(prompt("Nhập số bạn đoán"));
+        while (!guessNumber) {
+            guessNumber = +(prompt("Vui lòng nhập đúng kiểu số đoán "));
+        }
+
+        let number = Math.floor((Math.random() * (inputNumber + 1)) + 1);
         let count = 0;
         while (true) {
+            if (!guessNumber) {
+                guessNumber = +(prompt("vui lòng nhập đúng số"));
+
+            }
             if (guessNumber > number) {
-                alert("Số bạn đoán lớn hơn số được chọn ")
-                guessNumber = parseInt(prompt("Nhập số bạn đoán"));
+                alert("Số bạn đoán lớn hơn số được chọn ");
+                guessNumber = +(prompt("Nhập số bạn đoán"));
                 count++
             } else if (guessNumber < number) {
-                alert("Số bạn đoán bé hơn số được chọn ")
-                guessNumber = parseInt(prompt("Nhập số bạn đoán"));
+                alert("Số bạn đoán bé hơn số được chọn ");
+                guessNumber = +(prompt("Nhập số bạn đoán"));
                 count++
             } else if (guessNumber === number) {
-                alert("chúc mừng bạn đã đoán đúng")
+                alert("chúc mừng bạn đã đoán đúng");
                 break
             }
             if (count === 3) {
-                alert("bạn đã hết lượt đoán")
+                alert("bạn đã hết lượt đoán");
                 break
             }
         }
