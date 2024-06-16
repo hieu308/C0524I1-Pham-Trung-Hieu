@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="input" placeholder="Nhập từ cần tìm">
+<button type="button" onclick="search()">Search</button>
+<p id="display"></p>
+<script>
+    function search() {
+        let value = document.getElementById("input").value;
+        let arrayE = ["red", "yellow", "green", "black", "white"];
+        let arrayV = ["đỏ", "vàng", "xanh", "đen", "trắng"];
+
+        if (arrayE.includes(value)) {
+            let index = arrayE.indexOf(value);
+            arrayV[0] = arrayV[index];
+            document.getElementById("display").innerHTML = arrayV[index];
+
+        } else {
+            document.getElementById("display").innerHTML = `Không tìm thấy từ cần tìm`;
+
+        }
+
+    }
+
+</script>
+</body>
+</html>

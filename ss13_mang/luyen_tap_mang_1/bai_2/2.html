@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+    let array =[];
+    for(let i = 1 ; i <= 10; i++){
+        let inputNumber= parseInt(prompt(`Nhập phần tử thứ ${i}`));
+        while(!inputNumber || array.includes(inputNumber)){
+            inputNumber= parseInt(prompt(`Nhập lại phần tử thứ ${i}`));
+        }
+        array.push(inputNumber);
+    }
+    console.log(array);
+    let max=Math.max(...array);
+    console.log(` số lớn nhất là ${max} có vị trí index ${array.indexOf(max)}`);
+</script>
+</body>
+</html>

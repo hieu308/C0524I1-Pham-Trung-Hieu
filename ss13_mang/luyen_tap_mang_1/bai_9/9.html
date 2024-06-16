@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+
+    let arrayA= [];
+    let inputArrayA = parseInt(prompt('Nhập chiều dài mảng A'));
+    for (let i = 1; i <= inputArrayA; i++) {
+        let inputNumber = parseInt(prompt(`Nhập phần tử thứ ${i}`));
+        while (!inputNumber) {
+            inputNumber = parseInt(prompt(`Nhập lại phần tử thứ ${i}`));
+        }
+        arrayA.push(inputNumber);
+    }
+
+    let arrayB = [];
+    let inputArrayB = parseInt(prompt('Nhập chiều dài mảng B'));
+    for (let i = 1; i <= inputArrayB; i++) {
+        let inputNumber = parseInt(prompt(`Nhập phần tử thứ ${i}`));
+        while (!inputNumber) {
+            inputNumber = parseInt(prompt(`Nhập lại phần tử thứ ${i}`));
+        }
+        arrayB.push(inputNumber);
+    }
+    let c = arrayA.concat(arrayB);
+    console.log(c);
+</script>
+</body>
+</html>

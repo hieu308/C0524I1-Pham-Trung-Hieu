@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = prompt("nhập số");
+    let result = "";
+    for (let i = 0; i < number.length; i++) {
+
+        if (number[i] >= "a" && number[i] <= "z") {
+            result += number[i].toUpperCase();
+        } else if (number[i] >= "A" && number[i] <= "Z") {
+            result += number[i].toLowerCase();
+        }
+    }
+    console.log(result);
+</script>
+</body>
+</html>

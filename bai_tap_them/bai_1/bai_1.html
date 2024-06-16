@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputN = parseInt(prompt(" Nhập vào độ dài mảng:"));
+    let array = [];
+    let inputElements;
+    for (let i = 1; i <= inputN; i++) {
+        inputElements = parseInt(prompt(`Nhập phần tử thứ ${i}`))
+        array.push(inputElements);
+    }
+    console.log(array);
+    let countEven = 0;
+    let countOdd = 0;
+    for (let elements of array) {
+        elements % 2 === 0 ? countEven++ : countOdd++;
+    }
+    countOdd === countEven ? alert("ok") : alert("no");
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check(string) {
+        let countUp = 0;
+        let countLow = 0;
+        for (let character of string) {
+            character === character.toUpperCase() ? countUp++ : countLow++;
+        }
+        if (countUp !== countLow) {
+            return false;
+        }
+        return true;
+    }
+
+    let string = check("dsfdsfefdsf");
+    console.log(string)
+</script>
+</body>
+</html>

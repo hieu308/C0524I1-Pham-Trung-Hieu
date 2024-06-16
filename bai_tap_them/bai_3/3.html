@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputN = parseInt(prompt(" Nhập vào độ dài mảng:"));
+    while(!inputN){
+        inputN = parseInt(prompt(" Nhập đúng kiểu độ dài mảng:"));
+    }
+    let array = [];
+    let inputElements;
+    for (let i = 1; i <= inputN; i++) {
+        inputElements = (prompt(`Nhập phần tử thứ ${i}`));
+        array.push(inputElements);
+    }
+    console.log(array)
+
+    function ascending(array) {
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] >array[i + 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function decrease(array) {
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] <array[i + 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+    ascending(array) || decrease(array)?alert("ok"):alert("false");
+
+    // if (ascending(array) || decrease(array)) {
+    //     alert("ok")
+    // } else {
+    //     alert("false")
+    // }
+
+</script>
+</body>
+</html>
