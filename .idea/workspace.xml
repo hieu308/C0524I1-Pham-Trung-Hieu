@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_1/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_2/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_3/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_4/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_5/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_6/6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_2/số _nguyên_tố.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_2/số _nguyên_tố.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_5/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_5/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_6/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_6/bai_6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,7 @@
       <workItem from="1718511765155" duration="11587000" />
       <workItem from="1718537285606" duration="435000" />
       <workItem from="1718540769197" duration="5186000" />
-      <workItem from="1718585619712" duration="1537000" />
+      <workItem from="1718585619712" duration="4875000" />
     </task>
     <servers />
   </component>

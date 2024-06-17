@@ -8,11 +8,13 @@
 <script>
     let sum = 0;
     let count = 0;
-    for (let i = 0; count < 3; i++) {
-        if (i % 7 === 0) {
-            sum += i;
+    let integer = 0 ;
+    while ( count <= 30) {
+        if (integer % 7 === 0) {
+            sum += integer;
             count++;
         }
+        integer++;
     }
     console.log(` Tổng 30 số chia hết cho 7 là ${sum}` );
 </script>
