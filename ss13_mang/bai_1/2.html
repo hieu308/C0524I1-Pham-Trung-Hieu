@@ -14,7 +14,11 @@
             result += number[i].toUpperCase();
         } else if (number[i] >= "A" && number[i] <= "Z") {
             result += number[i].toLowerCase();
+        } else if( number[i] ===' '){
+            result += number[i];
         }
+
+
     }
     console.log(result);
 </script>
