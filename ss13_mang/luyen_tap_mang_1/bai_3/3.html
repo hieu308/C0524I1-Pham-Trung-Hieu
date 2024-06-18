@@ -8,21 +8,24 @@
 <script>
     let sum = 0;
     let array = [];
-    let inputArray = parseInt(prompt('Nhập chiều dài mảng'));
-    for (let i = 1; i <= inputArray; i++) {
-        let inputNumber = parseInt(prompt(`Nhập phần tử thứ ${i}`));
-        while (!inputNumber) {
-            inputNumber = parseInt(prompt(`Nhập lại phần tử thứ ${i}`));
+    let max = [0];
+    let inputArray = +prompt('Nhập chiều dài mảng');
+    for (let i = 0; i < inputArray; i++) {
+        array[i] = +prompt(`Nhập phan tử thứ ${i}`);
+        sum += array[i];
+        if (max[0] < array[i]) {
+            max[0] = array[i]
         }
-        array.push(inputNumber);
-        sum += array[i - 1];
     }
-
-    console.log(array);
     let average = sum / inputArray;
-    let max = Math.max(...array);
-    console.log(` số lớn nhất là ${max} có vị trí index ${array.indexOf(max)}`);
-    console.log(`số trung bình của mảng là ${average}`);
+    console.log(array);
+    console.log(`max ${max[0]}`);
+    console.log(` tổng các phần tử là ${sum}`)
+    console.log(`tổng số trung bình cộng la ${average});
+
+
+
+
 </script>
 </body>
 </html>

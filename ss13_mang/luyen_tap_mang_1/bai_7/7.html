@@ -6,17 +6,25 @@
 </head>
 <body>
 <script>
-    let array = [15, 32, 3, 4, 62, 74, 81, 9, 11];
+    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     let V = parseInt(prompt('Nhập vào phần tử số nguyên'));
 
-    if (array.includes(V)) {
-        array = array.filter(function (element) {
-            return element !== V;
-        });
+    let found = false;
+
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === V) {
+            found = true;
+            break;
+        }
+    }
+
+    if (found) {
+        let indexV = array.indexOf(V);
+        array.splice(indexV, 1);
         array.push(0);
         console.log(array);
     } else {
-        alert(` V is not in the array `);
+        alert(`${V} is not in the array`);
     }
 
 

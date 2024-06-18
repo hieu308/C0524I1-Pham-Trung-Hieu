@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputOne = parseInt(prompt(`Nhập tham số 1:`));
+    let inputTwo = parseInt(prompt(`Nhập tham số 2:`));
+
+    function parameters(fist, second) {
+        if (fist > second) {
+            alert(`tham số ${fist} > tham số  ${second}`);
+        } else {
+            let sum = fist + second;
+            alert(`tổng hai tham số là ${sum}`);
+        }
+    }
+
+    parameters(inputOne, inputTwo);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function calculate(number) {
+        let result = 1;
+        for (let i = 1; i <= number; i++) {
+            result *= i;
+        }
+        return result;
+
+    }
+    let inputNumber = parseInt(prompt(`Nhâp số giai thừa`))
+    while(inputNumber<0){
+        inputNumber = parseInt(prompt(`Nhâp đúng số giai thừa`))
+    }
+  let result = calculate(inputNumber);
+    alert(`${inputNumber} giai thừa bằng ${result}`);
+</script>
+</body>
+</html>

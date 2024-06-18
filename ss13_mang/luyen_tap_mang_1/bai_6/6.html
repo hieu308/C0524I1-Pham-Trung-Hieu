@@ -6,16 +6,24 @@
 </head>
 <body>
 <script >
-    let array = [15,32,3,4,62,74,81,9,11];
+    let array = [15, 32, 3, 4, 62, 74, 81, 9, 11];
     let V = parseInt(prompt('Nhập vào phần tử số nguyên'));
-   while (!V){
-       V = parseInt(prompt('Nhập đúng phần tử số nguyên'));
-   }
-  if(array.includes(V)){
-alert(` V is in the array `);
-  }else{
-      alert(` V is not in the array `);
-  }
+
+    let found = false;
+
+    for(let i = 0; i < array.length; i++) {
+        if(array[i] === V) {
+            found = true;
+            break;
+        }
+    }
+
+    if(found) {
+        alert(`${V} is in the array`);
+    } else {
+        alert(`${V} is not in the array`);
+    }
+
 
 
 </script>

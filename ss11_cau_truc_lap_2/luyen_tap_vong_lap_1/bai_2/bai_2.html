@@ -6,17 +6,17 @@
 </head>
 <body>
 <script>
-    let inputC = parseInt(prompt(" Nhập nhiêt độ"));
-    while (!inputC) {
-        inputC = parseInt(prompt(" Nhập đúng kiểu số nguyên"));
-    }
-    if (inputC > 100) {
-        alert("giảm nhiệt độ");
-    } else if (inputC < 20) {
-        alert("tăng nhiệt độ");
-    } else {
-        alert("nhiệt độ bình thường");
-    }
+    let inputC = +prompt(" Nhập nhiêt độ")
+    do {
+        if (inputC < 20) {
+            inputC = +prompt(" nhiệt độ tấp qua")
+        }
+        if (inputC > 100) {
+            inputC = +prompt(" nhiệt độ cao qua")
+        }
+    } while (inputC < 20 || inputC > 100)
+
+
 </script>
 </body>
 </html>

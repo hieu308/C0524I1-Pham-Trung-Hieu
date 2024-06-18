@@ -9,24 +9,22 @@
 <button type="button" onclick="search()">Search</button>
 <p id="display"></p>
 <script>
-
     function search() {
         let value = document.getElementById("input").value;
-        let arrayE = ["red", "yellow", "green", "black", "white"];
-        let arrayV = ["đỏ", "vàng", "xanh", "đen", "trắng"];
+        let star = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+        let Constellation = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major" , "Leo"];
 
-        if (arrayE.includes(value)) {
-            let index = arrayE.indexOf(value);
-            arrayV[0] = arrayV[index];
-            document.getElementById("display").innerHTML = arrayV[index];
+        if (star.includes(value)) {
+            let index = star.indexOf(value);
+            Constellation[0] = Constellation[index];
+            document.getElementById("display").innerHTML = Constellation[index];
 
-        } else  {
+        } else {
             document.getElementById("display").innerHTML = `Không tìm thấy từ cần tìm`;
 
         }
 
     }
-
 </script>
 </body>
 </html>

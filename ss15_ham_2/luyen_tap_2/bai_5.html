@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function minNumber(a, b, c) {
+        if (a < b && a < c) {
+            return a
+        } else if (b < c && b < a) {
+            return b
+        } else {
+            return c
+        }
+    }
+  let result=  minNumber(3,2,4);
+    alert(`số nhỏ nhất là ${result}`);
+</script>
+</body>
+</html>

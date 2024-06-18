@@ -5,19 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-<script >
-    let array = [];
-    let inputArray = parseInt(prompt('Nhập chiều dài mảng'));
-    for (let i = 1; i <= inputArray; i++) {
-        let inputNumber = parseInt(prompt(`Nhập phần tử thứ ${i}`));
-        while (!inputNumber) {
-            inputNumber = parseInt(prompt(`Nhập lại phần tử thứ ${i}`));
-        }
-        array.push(inputNumber);
+<script>
+    let arrInter = [12, 2, 1, 41, 4, 4];
+    let arrRevert = [];
+    for (let i = 0; i < arrInter.length; i++) {
+        arrRevert.push(arrInter[arrInter.length - (i + 1)]);
     }
-    console.log(array);
-    array.reverse();
-    console.log(array);
+    console.log(arrRevert);
 
 </script>
 </body>

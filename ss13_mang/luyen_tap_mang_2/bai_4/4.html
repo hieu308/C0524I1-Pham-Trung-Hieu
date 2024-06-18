@@ -5,15 +5,43 @@
     <title>Title</title>
 </head>
 <body>
-<script >
-    let count=0;
-    let string="sđ345sdff4f1236fde";
-    for(let character of string){
-        if(!(character*1)){
-            count++;
+<script>
+    let str = "hoc code gym trong sau thang"
+    let array = [];
+    let word = "";
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === " ") {
+            array.push(word);
+            word = "";
+        } else {
+            word += str[i];
         }
     }
-    console.log(`số từ trong chuỗi là ${count}`);
+    if (word.length > 0) {
+        array.push(word);
+    }
+    console.log(array);
+
+    let count = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === "") {
+
+                count++
+            }
+    }
+    console.log(`số từ trong chuổi là ${array.length-count}`);
+    //  array = str.split(" ")
+    // console.log(array);
+    // let count = 0;
+    // for (let i = 0; i < array.length; i++) {
+    //     if (array[i] === "") {
+    //
+    //         count++
+    //     }
+    // }
+    // console.log(`số từ trong chuổi là ${array.length-count}`);
+
+
 </script>
 </body>
 </html>

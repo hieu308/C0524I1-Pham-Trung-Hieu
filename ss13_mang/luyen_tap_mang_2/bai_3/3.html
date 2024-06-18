@@ -7,15 +7,11 @@
 <body>
 <script>
     let array = [];
-    let inputArray = (prompt('Nhập chiều dài mảng'));
-    for (let i = 1; i <= inputArray; i++) {
-        let inputNumber = (prompt(`Nhập phần tử thứ ${i}`));
-        while (!inputNumber) {
-            inputNumber = (prompt(`Nhập lại phần tử thứ ${i}`));
-        }
-        array.push(inputNumber);
+    for (let i = 0; i < 10; i++) {
+        array[i] = prompt(`Nhập phần tử thứ ${i}`);
     }
     console.log(array);
+
     let count = 0;
     for (let item of array) {
         if (item*1) {

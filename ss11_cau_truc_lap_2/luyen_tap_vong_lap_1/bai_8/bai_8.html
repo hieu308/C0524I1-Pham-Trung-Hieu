@@ -17,7 +17,8 @@
             guessNumber = parseInt(prompt("Vui lòng nhập đúng kiểu số đoán "));
         }
 
-        let number = parseInt((Math.random() * (inputNumber + 1)) + 1);
+
+        let number = Math.ceil(Math.random() * inputNumber  );
         let count = 0;
         while (true) {
             if (!guessNumber) {

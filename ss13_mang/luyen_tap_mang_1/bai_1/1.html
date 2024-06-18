@@ -5,19 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-<script >
+<script>
     let count = 0;
-    let array =[];
-    for(let i = 1 ; i <= 10; i++){
-        let inputNumber= parseInt(prompt(`Nhập phần tử thứ ${i}`));
-        while(!inputNumber){
-            inputNumber= parseInt(prompt(`Nhập lại phần tử thứ ${i}`));
-        }
-        array.push(inputNumber);
+    let array = [];
+    for (let i = 0; i < 10; i++) {
+        array[i] = +prompt(`Nhập phần tử thứ ${i}`);
     }
     console.log(array);
-    for(let number of array){
-        if(number>=10){
+    for (let number of array) {
+        if (number >= 10) {
             count++;
         }
     }

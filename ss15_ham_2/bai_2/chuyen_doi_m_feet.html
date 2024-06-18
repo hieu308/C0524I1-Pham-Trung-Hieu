@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+    let inputFoot = parseInt(prompt(`Nhập foot:`));
+    let inputMeter = parseInt(prompt(`Nhập metter:`));
+    function footToMeter(foot){
+       let meter = 0.305 * foot;
+       document.write(`${foot} foot bằng ${meter} meter ` + "</br>") ;
+    }
+    function meterToFood(meter){
+        let foot = 3.279 * meter;
+        document.write(`${meter} meter bằng ${foot} food`);
+    }
+
+    footToMeter(inputFoot);
+    meterToFood(inputMeter);
+</script>
+</body>
+</html>

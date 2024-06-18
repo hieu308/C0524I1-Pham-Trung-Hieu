@@ -6,22 +6,25 @@
 </head>
 <body>
 <script>
+    let array = [4, 2, 3, 10, 5, 6, 12, 8, 26];
+    let arrResult = [];
 
-    let array = [];
-    let inputArray = parseInt(prompt('Nhập chiều dài mảng'));
-    for (let i = 1; i <= inputArray; i++) {
-        let inputNumber = parseInt(prompt(`Nhập phần tử thứ ${i}`));
-        while (!inputNumber) {
-            inputNumber = parseInt(prompt(`Nhập lại phần tử thứ ${i}`));
+    let max = [0];
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < 9; j++) {
+
+            }
+            if (max[0] < array[j]) {
+                max[0] = array[j];
+
+            }
+
+
         }
-        array.push(inputNumber);
-    }
-    console.log(array);
-    array.sort(function (a, b) {
-        return b - a;
-    });
 
-    console.log(array);
+        arrResult.push(max[0])
+    }
+    console.log(arrResult);
 
 </script>
 </body>
