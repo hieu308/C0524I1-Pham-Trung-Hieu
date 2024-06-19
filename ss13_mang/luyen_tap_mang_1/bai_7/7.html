@@ -9,22 +9,22 @@
     let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     let V = parseInt(prompt('Nhập vào phần tử số nguyên'));
 
-    let found = false;
+    let count = 0;
 
     for (let i = 0; i < array.length; i++) {
         if (array[i] === V) {
-            found = true;
-            break;
+            count++
+            for (let j = i; j < array.length; j++) {
+                array[j] = array[j + 1];
+            }
         }
     }
-
-    if (found) {
-        let indexV = array.indexOf(V);
-        array.splice(indexV, 1);
-        array.push(0);
-        console.log(array);
-    } else {
-        alert(`${V} is not in the array`);
+    array.pop();
+    array.push(0);
+    if(count===0){
+        alert(`${V} không có trong mãng`)
+    }else{
+        document.write(array)
     }
 
 

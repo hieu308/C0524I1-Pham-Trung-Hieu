@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [];
+    for (let i = 0; i < 2; i++) {
+        array[i] = +prompt(`Nhập số thứ ${i}`);
+    }
+
+    function change(number) {
+        let vain = 0
+        vain = number[0];
+        number[0] = number[1]
+        number[1] = vain
+       return number
+    }
+
+
+   let result = change(array);
+document.write(result);
+</script>
+</body>
+</html>

@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-    let str = "hoc code gym trong sau thang"
+    let str = "code  gym   dn vn"
     let array = [];
     let word = "";
     for (let i = 0; i < str.length; i++) {
@@ -24,12 +24,12 @@
 
     let count = 0;
         for (let i = 0; i < array.length; i++) {
-            if (array[i] === "") {
+            if (array[i] !== "") {
 
                 count++
             }
     }
-    console.log(`số từ trong chuổi là ${array.length-count}`);
+    console.log(`số từ trong chuổi là ${count}`);
     //  array = str.split(" ")
     // console.log(array);
     // let count = 0;

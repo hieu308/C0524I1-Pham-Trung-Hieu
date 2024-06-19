@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [12, 2, 1, 41, 4, 4];
+
+    function revert(arrInter) {
+        let arrRevert = [];
+        for (let i = 0; i < arrInter.length; i++) {
+            arrRevert.push(arrInter[arrInter.length - (i + 1)]);
+        }
+        return arrRevert
+    }
+
+    let result = revert(arr);
+    console.log(result);
+</script>
+</body>
+</html>

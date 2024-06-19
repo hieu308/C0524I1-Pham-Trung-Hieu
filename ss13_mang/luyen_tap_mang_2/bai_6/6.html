@@ -7,8 +7,14 @@
 <body>
 <script >
     let string = prompt(`Nhập chuỗi:`);
-    string=string.split(`-`).join(`_`);
-    console.log(string);
+ let array = [];
+ for(let i = 0 ; i < string. length; i ++){
+     if(string[i] === "-"){
+         array[i] = "_"
+     }
+ }
+ array=array.join();
+    console.log(array);
 
 </script>
 </body>

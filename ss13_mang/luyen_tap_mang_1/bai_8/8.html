@@ -6,25 +6,24 @@
 </head>
 <body>
 <script>
-    let array = [4, 2, 3, 10, 5, 6, 12, 8, 26];
+    let array = [1, 2, 4, 3, 5, 6, 9, 8, 7,10];
     let arrResult = [];
 
-    let max = [0];
+
     for (let i = 0; i < array.length; i++) {
-        for (let j = 0; j < 9; j++) {
-
+        for (let j = 0; j < array.length; j++) {
+            if (array[i] > array[j]) {
+                arrResult = array[j];
+                array[j] = array[i]
+                array[i] = arrResult
             }
-            if (max[0] < array[j]) {
-                max[0] = array[j];
-
-            }
-
-
         }
 
-        arrResult.push(max[0])
+
     }
-    console.log(arrResult);
+
+
+    console.log(array);
 
 </script>
 </body>

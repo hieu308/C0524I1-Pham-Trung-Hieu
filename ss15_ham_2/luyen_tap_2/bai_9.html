@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrString = ["a", "g", "s", "s", "d", "d", "ds", ""]
+    let char = prompt('Nhập ký tự')
+    let count = 0;
+
+    function check(chart) {
+
+        for (let i = 0; i < arrString.length; i++) {
+            if (arrString[i] === chart) {
+                count++
+            }
+        }
+        if (count === 0) {
+            alert(`${chart} không có trong mảng`)
+        } else {
+            alert(` số lần ${chart} xuất hiện là ${count}`);
+        }
+    }
+
+    check(char);
+
+</script>
+</body>
+</html>
