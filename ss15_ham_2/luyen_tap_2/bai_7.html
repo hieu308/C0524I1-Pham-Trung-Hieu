@@ -6,22 +6,18 @@
 </head>
 <body>
 <script>
-    let array = [];
-    for (let i = 0; i < 2; i++) {
-        array[i] = +prompt(`Nhập số thứ ${i}`);
+
+
+    function change(number1, number2) {
+
+      let  vain = number1;
+        number1 = number2
+        number2 = vain
+        alert(`${number1},${number2}`)
     }
+change(1,2)
+    </script>
 
-    function change(number) {
-        let vain = 0
-        vain = number[0];
-        number[0] = number[1]
-        number[1] = vain
-       return number
-    }
-
-
-   let result = change(array);
-document.write(result);
-</script>
-</body>
-</html>
+<!--a=a+b - (b=a)-->
+    </body>
+    </html>

@@ -5,18 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/bai_3_doi_xung/doi_xung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/tang_giam_deu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/ham_quang_ly_san_pham/quang_ly_san_pham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_nhap/doi_xung.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_nhap/doi_xung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_3/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_3/6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang/bai_2/từ_điển.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/bai_2/tu_dien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_1/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_3/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_3/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_5/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_5/5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_7/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_7/7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_8/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_8/8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_4/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_4/4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_6/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_6/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_2/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_5/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_5/5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/bai_1/kiem_tra_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/bai_1/kiem_tra_so_nguyen_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_3/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_3/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_5/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_5/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +72,11 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Unnamed.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/C0524I1-JV101_Pham_Trung_Hieu/module1/ss13_mang/luyen_tap_mang_1/bai_8/8.html&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -69,6 +92,11 @@
       <recent name="D:\C0524I1-JV101_Pham_Trung_Hieu\module1\ss15_ham_2\luyen_tap_1" />
       <recent name="D:\C0524I1-JV101_Pham_Trung_Hieu\module1\ss4_git_html\baitap_html\html\bai2\img" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/module1/ss13_mang/luyen_tap_mang_1/bai_8/8.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -127,7 +155,18 @@
       <workItem from="1718671982541" duration="11371000" />
       <workItem from="1718694694302" duration="9651000" />
       <workItem from="1718717122010" duration="12843000" />
-      <workItem from="1718758104799" duration="12336000" />
+      <workItem from="1718758104799" duration="14417000" />
+      <workItem from="1718778503468" duration="6348000" />
+      <workItem from="1718785459331" duration="6785000" />
+      <workItem from="1718800283183" duration="11692000" />
+      <workItem from="1718845721625" duration="7273000" />
+      <workItem from="1718853616672" duration="5513000" />
+      <workItem from="1718867237948" duration="6250000" />
+      <workItem from="1718930905647" duration="14565000" />
+      <workItem from="1718951255284" duration="6861000" />
+      <workItem from="1719053164369" duration="2582000" />
+      <workItem from="1719118341972" duration="1005000" />
+      <workItem from="1719190113466" duration="1483000" />
     </task>
     <servers />
   </component>

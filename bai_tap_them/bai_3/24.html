@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrLength = prompt(`Nhập độ dài mảng`)
+    let arrNum = [];
+    let arrNum2 = [];
+    for (let i = 0; i < arrLength; i++) {
+        arrNum[i] = +prompt(`nhập phần tử thu ${i}`);
+    }
+    console.log(arrNum);
+    for (let i = 0; i < arrNum.length; i++) {
+        let sum = 0;
+        for (let j = 1; j <= arrNum[i]; j++) {
+            if (arrNum[i] % j === 0) {
+                sum += j;
+            }
+        }
+        arrNum2.push(sum);
+    }
+    console.log(arrNum2);
+</script>
+</body>
+</html>

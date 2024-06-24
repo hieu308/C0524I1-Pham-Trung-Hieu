@@ -6,25 +6,29 @@
 </head>
 <body>
 <script>
-    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let array = [1, 2, 3, 4, 4, 4, 4, 5, 6, 7, 8, 9];
     let V = parseInt(prompt('Nhập vào phần tử số nguyên'));
 
     let count = 0;
 
     for (let i = 0; i < array.length; i++) {
         if (array[i] === V) {
-            count++
+            count++;
             for (let j = i; j < array.length; j++) {
                 array[j] = array[j + 1];
+
             }
+            i--;
+            array[array.length - 1] = 0;
         }
+
     }
-    array.pop();
-    array.push(0);
-    if(count===0){
-        alert(`${V} không có trong mãng`)
-    }else{
-        document.write(array)
+
+
+    if (count === 0) {
+        alert(`${V} không có trong mãng`);
+    } else {
+        document.write(array);
     }
 
 

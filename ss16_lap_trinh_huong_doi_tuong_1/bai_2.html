@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+    class Temperature {
+        constructor(c) {
+            this.c = c;
+        }
+
+        convertToF() {
+            return (9 / 5) * this.c + 32;
+        }
+
+        convertToK() {
+            return this.c + 273.15;
+        }
+    }
+
+    const convert = new Temperature(25);
+    const toF = convert.convertToF();
+    const toK = convert.convertToK();
+    document.write(`Nhiệt độ K: ${toK} </br>`);
+    document.write(`Nhiệt độ F: ${toF}`);
+</script>
+</body>
+</html>

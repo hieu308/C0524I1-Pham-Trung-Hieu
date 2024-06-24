@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [6, 2, 4, 3, 2, 3, 12, 5, 4, 4];
+    let sum = 0;
+    let count = 0
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i]
+    }
+    let average = Math.floor(sum / array.length)
+    if (!(array.includes(average))) {
+        alert(`không có số giá trị trung bình trong mảng `);
+    }else{
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === average) {
+                count++
+            }
+
+        }
+        console.log(`số trung bình ${average} xuất hiện ${count}`)
+    }
+
+
+</script>
+</body>
+</html>

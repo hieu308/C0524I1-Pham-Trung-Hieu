@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkString(str) {
+        let countUp = 0;
+        let countLow = 0;
+        for (let i = 0; i < str.length; i++) {
+            if ("a" <= str[i] && str[i] <= "z") {
+                countLow++;
+            }
+            if ("A" <= str[i] && str[i] <= "Z") {
+                countUp++;
+            }
+        }
+        return countLow === countUp;
+    }
+
+    let str = "ABCabc"
+    let result = checkString(str);
+    console.log(result);
+</script>
+</body>
+</html>

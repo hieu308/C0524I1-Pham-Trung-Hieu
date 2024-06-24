@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = prompt(` nhập độ dài mảng`)
+    let arrayN = [];
+    for (let i = 0; i < n; i++) {
+        arrayN[i] = +prompt(`nhập phânf tử thứ ${i}`)
+    }
+    console.log(arrayN)
+    let prime = true;
+
+    for (let i = 0; i < arrayN.length; i++) {
+        if(arrayN[i] < 2){
+            prime = false;
+        }
+        for (let j = 2; j < arrayN[i]; j++) {
+            if (arrayN[i] % j === 0) {
+                prime = false
+                break;
+            }
+        }
+    }
+    if (prime) {
+        alert(`ok`)
+    } else {
+        alert(`no`)
+    }
+</script>
+</body>
+</html>

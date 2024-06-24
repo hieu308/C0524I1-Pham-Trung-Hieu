@@ -7,12 +7,12 @@
 <body>
 <script>
     let count = 0;
-    let array = [];
+    let arrNumber = [];
     for (let i = 0; i < 10; i++) {
-        array[i] = +prompt(`Nhập phần tử thứ ${i}`);
+        arrNumber[i] = +prompt(`Nhập phần tử thứ ${i}`);
     }
-    console.log(array);
-    for (let number of array) {
+    console.log(arrNumber);
+    for (let number of arrNumber) {
         if (number >= 10) {
             count++;
         }

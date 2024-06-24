@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let inputN = parseInt(prompt(" Nhập vào độ dài mảng:"));
+    //
+    // let array = [];
+    //
+    // for (let i = 1; i <= inputN; i++) {
+    //   array[i] = +prompt(`nhập vào phần tử thứ ${i}`);
+    // }
+    let array = [2, 4, 6, 8,23, 10];
+    console.log(array)
+    //     let a = "ok"
+    //     let result = array[1] - array[0];
+    //     for (let i = 0; i < array.length-1; i++) {
+    //         if(array[i+1]-array[i] !== result ){
+    //             a = "no";
+    //             break
+    //         }
+    //     }
+    // console.log(a)
+
+    let count1 = 0;
+    let count2 = 0
+    for (let i = 0; i < array.length -1 ; i++) {
+        if (array[i] < array[i + 1]) {
+           count1++
+        } else if (array[i] > array[i + 1]) {
+
+        count2++
+
+        }
+    }
+   if(count1 === array.length-1 || count2 === array.length-1){
+       alert(`ok`)
+   }else{alert(`no`)}
+
+</script>
+</body>
+</html>

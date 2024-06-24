@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script >
+    let inputLength = prompt(` nhập độ dài mảng`);
+    let arrayN = [];
+    for (let i = 0; i < inputLength; i++) {
+        arrayN[i] = +prompt(`nhập phânf tử thứ ${i}`);
+    }
+    console.log(arrayN);
+    let sum = 0;
+    for (let i = 1; i < arrayN.length; i+=2) {
+        if(arrayN[i] % 2 === 0){
+            sum+=arrayN[i]
+        }
+    }
+    console.log(sum);
+</script>
+
+</body>
+</html>

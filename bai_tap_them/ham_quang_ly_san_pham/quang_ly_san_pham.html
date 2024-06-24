@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Add new product</h1>
+<input type="text" id="input">
+<button type="button" id="add" onclick="addProduct()"> Add</button>
+<h1>Dailly product</h1>
+<h2>Product name</h2>
+<P><span id="product">2</span> product </P>
+<div id="display"></div>
+
+<script>
+    let productList = ["Samsung", "Iphone"]
+    display();
+
+    function display() {
+        let tableString = `<table>
+                            <tr>
+                                <th>STT</th>
+                                <th>Name</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            </tr>`;
+        for (let i = 0; i < productList.length; i++) {
+
+            tableString += ` <tr>
+                                <td>${i + 1}</td>
+                                <td>${productList[i]}</td>
+                                <td><button id="${i}" onclick="editProduct(this.id)">Edit</button></td>
+                                <td><button id="${productList[i]}" onclick="deleteProduct(this.id)">Delete</button></td>
+                            </tr>`
+
+        }
+        tableString += `</table>`
+        document.getElementById("display").innerHTML = tableString;
+
+    }
+
+    function addProduct() {
+        let product = document.getElementById("input").value;
+        if (product === "") {
+            alert(` product name is required`)
+        } else {
+            productList.push(product);
+            document.getElementById("input").value = "";
+            display();
+
+            document.getElementById("product").innerHTML = productList.length
+        }
+
+    }
+
+    function deleteProduct(value) {
+
+
+        if (confirm(`bạn mún xoá hay không`)) {
+            productList.splice(productList.indexOf(value), 1);
+
+
+        }
+        document.getElementById("product").innerHTML = productList.length
+
+        display()
+    }
+
+    function editProduct(value) {
+
+        let edit = prompt(`thông tin muốn edit`);
+
+        if (edit !== null && edit !== "") {
+            productList[value] = edit
+        }
+        display()
+    }
+</script>
+</body>
+</html>

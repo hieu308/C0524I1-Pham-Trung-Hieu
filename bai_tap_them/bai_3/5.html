@@ -6,8 +6,21 @@
 </head>
 <body>
 <script >
-   
-
+let array = [];
+    for( let i = 0; i< 10 ; i++){
+        array[i]= +prompt(`nhập phần tu thứ ${i}`);
+    }
+    let result = true;
+console.log(array);
+    for(let i = 0;i<array.length;i+=2){
+        if(array[i] >= array[i+1]){
+           result = false;
+           break;
+        }
+    }
+    if(result){
+        alert(`ok`)
+    }else{alert(`sai`)}
 </script>
 </body>
 </html>

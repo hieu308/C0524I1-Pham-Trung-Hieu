@@ -6,22 +6,31 @@
 </head>
 <body>
 <script>
-    let string1 = "12re3"
-    let string2 = "12rêr3"
-    let result = true
-    for (let i = 0; i < string1.length; i++) {
+    // let string1 = "12re3"
+    // let string2 = "12rêr3"
+    // let result = true
+    // for (let i = 0; i < string1.length; i++) {
+    //
+    //     if (string1[i] !== string2[i]) {
+    //
+    //         result = false
+    //         break;
+    //     }
+    //
+    // }
+    // if (result) {
+    //     alert(`2 chuổi giống nhau`);
+    // } else {
+    //     alert(`2 chuổi khác nhau`);
+    // }
 
-        if (string1[i] !== string2[i]) {
+    let string1 = prompt(`nhập`);
+    let string2 = prompt(`nhập 2`);
+    if(string1 === string2){
+        alert(`giống nhau`);
 
-            result = false
-            break;
-        }
-
-    }
-    if (result) {
-        alert(`2 chuổi giống nhau`);
-    } else {
-        alert(`2 chuổi khác nhau`);
+    }else{
+        alert(`khác nhau`);
     }
 </script>
 </body>

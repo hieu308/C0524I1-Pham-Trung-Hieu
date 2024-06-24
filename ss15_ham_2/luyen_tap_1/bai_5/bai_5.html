@@ -5,14 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-<input type="text" id="input" placeholder="Nhập từ cần tìm">
-<button type="button" onclick="search()">Search</button>
+
 <p id="display"></p>
 <script>
-    function search() {
-        let value = document.getElementById("input").value;
-        let star = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
-        let Constellation = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major" , "Leo"];
+    let star = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let Constellation = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    let nameStar=prompt('nhập tên ngôi sao')
+    function search(value) {
+
+
 
         if (star.includes(value)) {
             let index = star.indexOf(value);
@@ -20,11 +21,12 @@
             document.getElementById("display").innerHTML = Constellation[index];
 
         } else {
-            document.getElementById("display").innerHTML = `Không tìm thấy từ cần tìm`;
+            document.getElementById("display").innerHTML = `Không tìm thấy ngoi sao cần tìm`;
 
         }
 
     }
+    search(nameStar);
 </script>
 </body>
 </html>

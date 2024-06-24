@@ -18,14 +18,14 @@
             }
         }
         if (count === 0) {
-            alert(`${chart} không có trong mảng`)
+           return -1;
         } else {
-            alert(` số lần ${chart} xuất hiện là ${count}`);
+            console.log(` số lần ${chart} xuất hiện là ${count}`);
         }
     }
 
-    check(char);
-
+   let result = check(char);
+    console.log(result);
 </script>
 </body>
 </html>

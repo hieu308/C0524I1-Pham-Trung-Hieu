@@ -6,13 +6,13 @@
 </head>
 <body>
 <script>
-    let inputNumber = parseInt(prompt(`nhập số:`));
+    let inputNumber = (prompt(`nhập số:`));
 
     function check(number) {
         if (Number.isInteger(number) && number >= 0) {
             return true
-        }
-            return false
+        }else{ return false}
+
 
 
     }
