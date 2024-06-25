@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Add New Product</h1>
+<input type="text" id="id" placeholder="ID">
+<input type="text" id="name" placeholder="Name">
+<input type="text" id="price" placeholder="Price">
+<button onclick="addProduct()">Add</button>
+<input type="text" id="searchInfor" placeholder="Nhập tên sản phẩm ">
+<button onclick="search()">Search</button>
+<button onclick="save()">Save Edit</button>
+<table>
+    <tr>
+        <th>Display All Product</th>
+        <th style="width: 500px">
+            <div id="totalProduct"></div>
+        </th>
+    </tr>
+</table>
+
+
+<table>
+
+    <tbody id="body">
+
+    </tbody>
+</table>
+<div id="displaySearch"></div>
+<script>
+    class Product {
+        constructor(id, name, price) {
+            this.id = id;
+            this.name = name;
+            this.price = price;
+
+        }
+
+        set(id, name, price) {
+            this.id = id;
+            this.name = name;
+            this.price = price;
+        }
+    }
+
+    let listProduct = [
+        new Product(12, "nokia", 200),
+        new Product(232, "iphone", 200),
+        new Product(322, "Sony Xperia", 200),
+    ];
+
+    function display() {
+        let table = `<tr>
+                          <th style="width: 100px" >STT</th>
+                          <th style="width: 100px">ID</th>
+                          <th style="width: 100px">Name</th>
+                          <th style="width: 100px">Price</th>
+                          <th colspan="2">Action</th>
+
+</tr>`
+        for (let i = 0; i < listProduct.length; i++) {
+            table += `<tr>
+                           <td align="center">${i + 1}</td>
+                           <td align="center">${listProduct[i].id}</td>
+                           <td align="center">${listProduct[i].name}</td>
+                           <td align="center">${listProduct[i].price} $</td>
+                            <td align="center">  <button onclick="edit(${i})">Edit</button></td>
+                           <td align="center">  <button onclick="deleted (${i})">Delete</button></td>
+
+ </tr>`
+        }
+        document.getElementById("body").innerHTML = table;
+        document.getElementById("totalProduct").innerHTML = `${listProduct.length} Products`;
+    }
+
+    display();
+
+    function addProduct() {
+        let newId = document.getElementById("id").value;
+        let newName = document.getElementById("name").value;
+        let newPrice = document.getElementById("price").value;
+        let newProduct = new Product(newId, newName, newPrice);
+
+        if (newId === "" || newPrice === "" || newName === "") {
+            return;
+        } else {
+            listProduct.push(newProduct);
+            alert(`add product successfully`)
+            display()
+            document.getElementById("id").value = ""
+            document.getElementById("name").value = ""
+            document.getElementById("price").value = ""
+        }
+
+    }
+
+
+    function deleted(i) {
+        if (confirm(`bạn có muốn xoá ${listProduct[i].name}  không`)) {
+            listProduct.splice(i, 1);
+            display();
+        }
+    }
+
+    let number = "";
+
+    function edit(i) {
+
+        document.getElementById("id").value = listProduct[i].id;
+        document.getElementById("name").value = listProduct[i].name;
+        document.getElementById("price").value = listProduct[i].price;
+        number = i
+    }
+
+    function save() {
+        let editId = document.getElementById("id").value;
+        let editName = document.getElementById("name").value;
+        let editPrice = document.getElementById("price").value;
+        listProduct[number].set(editId, editName, editPrice)
+        display()
+    }
+
+    function search() {
+        let infor = document.getElementById("searchInfor").value;
+        for (let i = 0; i < listProduct.length; i++) {
+            if (listProduct[i].id === infor) {
+                document.getElementById("displaySearch").innerHTML = `${infor} có giá là ${listProduct[i].price}`
+                document.getElementById("searchInfor").value = "";
+                return;
+            }
+
+
+        }
+        document.getElementById("searchInfor").value = "";
+        return alert(`sản phẩm không có `);
+
+    }
+
+</script>
+</body>
+</html>

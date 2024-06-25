@@ -33,6 +33,12 @@
         setHeight(height) {
             this.height = height;
         }
+        draw(){
+            let canvas = document.getElementById("DemoCanvas");
+            let ctx = canvas.getContext('2d');
+            ctx.fillStyle='#262882';
+            ctx.fillRect(140, 140, width, height);
+        }
 
     }
     let myRectangle = new Rectangle(600,400);
@@ -47,10 +53,7 @@
 
     document.write(`dện tích` + ` ` + myRectangle.getArea() + ` / `);
     document.write(`chu vi` + ` ` + myRectangle.getPerimeter());
-    let canvas = document.getElementById("DemoCanvas");
-    let ctx = canvas.getContext('2d');
-    ctx.fillStyle='#262882';
-    ctx.fillRect(140, 140, width, height);
+    myRectangle.draw();
 </script>
 </body>
 </html>

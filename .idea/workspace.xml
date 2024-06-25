@@ -5,39 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/19.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/20.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/25.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/tang_giam_deu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/ham_quang_ly_san_pham/quang_ly_san_pham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/quang_ly_san_pham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_3/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_3/6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/bai_2/từ_điển.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/bai_2/tu_dien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_1/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_3/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_3/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_5/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_5/5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_7/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_1/bai_7/7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_2/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_5/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang/luyen_tap_mang_2/bai_5/5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/bai_1/kiem_tra_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/bai_1/kiem_tra_so_nguyen_to.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_3/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_3/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_5/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_1/bai_5/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_2/luyen_tap_2/bai_9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +137,11 @@
       <workItem from="1718951255284" duration="6861000" />
       <workItem from="1719053164369" duration="2582000" />
       <workItem from="1719118341972" duration="1005000" />
-      <workItem from="1719190113466" duration="1483000" />
+      <workItem from="1719190113466" duration="13041000" />
+      <workItem from="1719210532275" duration="1000" />
+      <workItem from="1719219740053" duration="4508000" />
+      <workItem from="1719278373363" duration="12360000" />
+      <workItem from="1719304302246" duration="3426000" />
     </task>
     <servers />
   </component>
