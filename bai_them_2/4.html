@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script >
+    for (let i = 0; i < 5; i++) {
+        for (let j = 0; j < 5+i; j++) {
+            if(j< (5-1)-i){
+                document.write("&ensp;");
+            }else{
+                document.write("*");
+            }
+
+        }
+        document.write(`</br>`);
+    }
+</script>
 </body>
 </html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who is the Smartest?</title>
+
+    <link rel="stylesheet" href="sds.css">
+
+
+</head>
+<body>
+<!--=============head==================-->
+<div id="navbar">
+    <div id="sign-in">
+        <span> <b>Class:</b></span>
+        <input id="class" class="input" type="text" placeholder=" nhập tên lớp">
+        <span id="span1"><b>Name:</b></span>
+        <input id="name" class="input" type="text" placeholder=" nhập tên ">
+        <button class="in" id="singIn" onclick="singIn()">Đăng nhập</button>
+        <p class="tilte"><a href="https://james.codegym.vn/my/" target="_blank"> 🅲🅾🅳🅴 🅶🆈🅼 🅳🅽</a></p>
+
+    </div>
+    <!--  ===========sing in sing out===========  /-->
+    <div id="info">
+        <div class="class-name">
+            <div><p id="infoC"></p>
+                <p id="infoN"></p></div>
+            <button class="in" id="singOut" onclick="singOut()">Đăng xuất</button>
+        </div>
+        <p id="score">Point: 0</p>
+        <span id="number">Số câu trả lời đúng: 0</span>
+        <p id="count1"><span id="count">0</span>/10</p>
+    </div>
+</div>
+<!--==========body============-->
+<div class="main">
+    <div>
+        <h1 id="quiz"> Quiz Javascript</h1>
+        <button id="starBtn" disabled onclick="startGame()"> Bắt đầu</button>
+    </div>
+    <div id="hero">
+        <h1></h1>
+        <div id="display">
+
+            <div class="time"><p>Time left: <span id="timer">15</span> seconds</p></div>
+
+            <p id="question_number">Câu 1:</p>
+            <p id="desc">JavaScript được phát triển bởi nhà phát triển nào sau đây?
+            </p>
+
+            <table id="table">
+
+                <tr>
+                    <td colspan="3">
+                        <button class="button" id="1" onclick="answer(this.id)">A. Tim Berners-Lee</button>
+                    </td>
+                    <td>
+                        <button class="button" id="2" onclick="answer(this.id)">B. Brendan Eich</button>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <button class="button" id="3" onclick="answer(this.id)">C. Bill Gates</button>
+                    </td>
+                    <td colspan="3">
+                        <button class="button" id="4" onclick="answer(this.id)">D. Linus Torvalds</button>
+                    </td>
+
+
+                </tr>
+            </table>
+        </div>
+
+        <div id="gameOver" style="display: none;">
+            <h1 id="sort">Bảng điểm</h1>
+            <table cellspacing="10" id="ratings">
+
+            </table>
+            <button class="restart" onclick="restartGame()">Làm lại</button>
+        </div>
+    </div>
+</div>
+<audio id="right" src="./bottle-205353.mp3"></audio>
+<audio id="ron" src="./level-up-2-199574.mp3"></audio>
+<script src="sd.js"></script>
+</body>
+</html>

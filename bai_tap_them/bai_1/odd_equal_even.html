@@ -8,10 +8,10 @@
 <script>
     let inputN = parseInt(prompt(" Nhập vào độ dài mảng:"));
     let array = [];
-    let inputElements;
+
     for (let i = 1; i <= inputN; i++) {
-        inputElements = parseInt(prompt(`Nhập phần tử thứ ${i}`))
-        array.push(inputElements);
+        array[i] = parseInt(prompt(`Nhập phần tử thứ ${i}`))
+
     }
     console.log(array);
     let countEven = 0;

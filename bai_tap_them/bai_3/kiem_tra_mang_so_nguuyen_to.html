@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let newArray = [3, 7, 5,13]
+
+
+    function checkArray(array) {
+
+        for(let number of array){
+            if (number < 2 || !Number.isInteger(number)) {
+                return false;
+            }
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+                if (number % i === 0) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    let result = checkArray(newArray);
+    console.log(result);
+
+
+</script>
 </body>
 </html>

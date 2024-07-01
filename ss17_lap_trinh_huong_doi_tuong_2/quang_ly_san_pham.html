@@ -10,7 +10,7 @@
 <input type="text" id="name" placeholder="Name">
 <input type="text" id="price" placeholder="Price">
 <button onclick="addProduct()">Add</button>
-<input type="text" id="searchInfor" placeholder="Nhập tên sản phẩm ">
+<input type="text" id="searchInfor" placeholder="Nhập STT ">
 <button onclick="search()">Search</button>
 <button onclick="save()">Save Edit</button>
 <table>
@@ -38,12 +38,14 @@
             this.price = price;
 
         }
+        set(id, name, price){
 
-        set(id, name, price) {
             this.id = id;
-            this.name = name;
+            this.name=name;
             this.price = price;
         }
+
+
     }
 
     let listProduct = [
@@ -88,11 +90,11 @@
             return;
         } else {
             listProduct.push(newProduct);
-            alert(`add product successfully`)
-            display()
-            document.getElementById("id").value = ""
-            document.getElementById("name").value = ""
-            document.getElementById("price").value = ""
+            alert(`add product successfully`);
+            display();
+            document.getElementById("id").value = "";
+            document.getElementById("name").value = "";
+            document.getElementById("price").value = "";
         }
 
     }
@@ -121,13 +123,20 @@
         let editPrice = document.getElementById("price").value;
         listProduct[number].set(editId, editName, editPrice)
         display()
+        document.getElementById("id").value = "";
+        document.getElementById("name").value = "";
+        document.getElementById("price").value = "";
     }
 
     function search() {
-        let infor = document.getElementById("searchInfor").value;
+        let stt = document.getElementById("searchInfor").value;
+        if(stt ===""){
+            alert(`Mời nhập so thứ tự sản phầm cần tìm:`);
+            return;
+        }
         for (let i = 0; i < listProduct.length; i++) {
-            if (listProduct[i].id === infor) {
-                document.getElementById("displaySearch").innerHTML = `${infor} có giá là ${listProduct[i].price}`
+            if (i === stt-1) {
+                document.getElementById("displaySearch").innerHTML = `${listProduct[i].name} có giá là ${listProduct[i].price}`
                 document.getElementById("searchInfor").value = "";
                 return;
             }
@@ -135,7 +144,7 @@
 
         }
         document.getElementById("searchInfor").value = "";
-        return alert(`sản phẩm không có `);
+        return alert(`Không tồn tại san phẩm `);
 
     }
 

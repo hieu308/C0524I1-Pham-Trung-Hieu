@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let array = [5, 5, 5, 6, 6, 3, 6, 19];
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+    let avg = +(sum / array.length).toFixed();
+    console.log(typeof avg)
+    let count = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === avg) {
+            count++
+        }
+    }
+    console.log(`số lượng trung bình là ${count} gí trị trung binh là ${avg}`)
+</script>
 </body>
 </html>

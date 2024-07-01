@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let newArray = [49, 3, 7, 5]
+
+
+    function checkArray(array) {
+        let char = 0;
+        let number = 0;
+        for (let element of array) {
+            if ("a" <= element <= "Z") {
+                char++;
+            } else {
+                number++;
+            }
+        }
+        if (char === array.length) {
+            return 0;
+        } else if (number === array.length) {
+            return 1;
+        } else {
+            return -1;
+        }
+    }
+
+    let result = checkArray(newArray);
+    console.log(result);
+
+
+</script>
 </body>
 </html>

@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
+
 <body>
 <script>
-    let string = "code gym danang vn";
-    let arr=[];
-    for (let i = 0; i <string.length ; i++) {
-        if (!arr.includes(string[i])){
-            arr.push(string[i]);
-        }
+    let array = [];
+
+
+    for (let i = 0; i < 3; i++) {
+        array[i] = +prompt(` Nhập phần tử thu ${i}`);
     }
-    for (let i = 0; i <arr.length ; i++) {
-        let count =0;
-        for (let j = 0; j <string.length ; j++) {
-            if (arr[i]===string[j]){
-                count++;
-            }
-        }
-        console.log(arr[i] +" : " +count);
-    }
+
+    console.log(array);
+    array.sort(function (a, b) {
+        return a - b
+    })
+    let avg = (array[0] + array[array.length - 1]) / 2;
+    document.write(`số trung bình cộng ${avg}`);
 
 </script>
 </body>

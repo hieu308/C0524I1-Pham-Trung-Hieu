@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/quang_ly_san_pham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_nhap/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_nhap/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/kiem_tra_mang_so_le_so_chang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/kiem_tra_mang_so_nguuyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/kt_so_chu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_them_2/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_them_2/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_them_2/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_them_2/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_them_2/5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_nhap/nhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_nhap/nhap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_1/odd_equal_even.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_2/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_3/15.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/quang_ly_san_pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/quang_ly_san_pham.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +32,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -47,7 +62,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/C0524I1-JV101_Pham_Trung_Hieu/module1/ss13_mang/luyen_tap_mang_1/bai_8/8.html&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/C0524I1-JV101_Pham_Trung_Hieu/module1/bai_nhap/study_case&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,6 +74,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0524I1-JV101_Pham_Trung_Hieu\module1\bai_nhap\study_case" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\C0524I1-JV101_Pham_Trung_Hieu\module1\ss15_ham_2\luyen_tap_1" />
       <recent name="D:\C0524I1-JV101_Pham_Trung_Hieu\module1\ss4_git_html\baitap_html\html\bai2\img" />
@@ -141,7 +159,22 @@
       <workItem from="1719210532275" duration="1000" />
       <workItem from="1719219740053" duration="4508000" />
       <workItem from="1719278373363" duration="12360000" />
-      <workItem from="1719304302246" duration="3426000" />
+      <workItem from="1719304302246" duration="5635000" />
+      <workItem from="1719363901020" duration="12996000" />
+      <workItem from="1719383365618" duration="6451000" />
+      <workItem from="1719390691762" duration="5736000" />
+      <workItem from="1719472140576" duration="7595000" />
+      <workItem from="1719479814816" duration="5364000" />
+      <workItem from="1719535968001" duration="14256000" />
+      <workItem from="1719556601841" duration="6332000" />
+      <workItem from="1719563297513" duration="6229000" />
+      <workItem from="1719572504537" duration="1090000" />
+      <workItem from="1719632316009" duration="1459000" />
+      <workItem from="1719633802574" duration="25006000" />
+      <workItem from="1719667086662" duration="11229000" />
+      <workItem from="1719722303884" duration="18540000" />
+      <workItem from="1719794754445" duration="12836000" />
+      <workItem from="1719815256502" duration="342000" />
     </task>
     <servers />
   </component>

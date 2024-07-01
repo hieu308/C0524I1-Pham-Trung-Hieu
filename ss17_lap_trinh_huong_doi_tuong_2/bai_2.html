@@ -67,11 +67,11 @@
     let apple = new Apple();
     let human = new Human("goku", "male", 65);
     while(human.checkApple(apple)){
-        human.talk("goku ăn táo" +"</br>");
+        human.talk("goku ăn táo </br>");
         human.eat(apple);
         document.write(`quả táo còn ${apple.getWeight()} dv  </br>`);
 
-        document.write(`Cân nặng của adam là: ${human.getWeightHuman()}`);
+        document.write(`Cân nặng của adam là: ${human.getWeightHuman()} </br> </br>`);
     }
 
 

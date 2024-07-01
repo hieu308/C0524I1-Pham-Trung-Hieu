@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+let salary = +prompt(`nhập tiền luong chưa qua thuế:`)
+let salaryReal
+function calculate(money){
+    if(money >= 15000000){
+         salaryReal = ( money - (money*20/100));
+        console.log(salaryReal)
+    }else if(money >= 7000000){
+        salaryReal = ( money - (money*10/100))
+        console.log(salaryReal)
+    }else{
+        salaryReal = ( money - (money*5/100))
+        console.log(salaryReal)
+    }
+}
+calculate(salary);
+</script>
 </body>
 </html>
