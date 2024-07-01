@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who is the Smartest?</title>
 
-    <link rel="stylesheet" href="sds.css">
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
@@ -17,8 +17,9 @@
         <input id="class" class="input" type="text" placeholder=" nhập tên lớp">
         <span id="span1"><b>Name:</b></span>
         <input id="name" class="input" type="text" placeholder=" nhập tên ">
-        <button class="in" id="singIn" onclick="singIn()">Đăng nhập</button>
-        <p class="tilte"><a href="https://james.codegym.vn/my/" target="_blank"> 🅲🅾🅳🅴 🅶🆈🅼 🅳🅽</a></p>
+        <button class="in" id="singIn" onclick="singIn()">
+            Log in</button>
+        <p class="tilte"><a href="https://codegym.vn/" target="_blank"> 🅲🅾🅳🅴 🅶🆈🅼 🅳🅽</a></p>
 
     </div>
     <!--  ===========sing in sing out===========  /-->
@@ -26,10 +27,10 @@
         <div class="class-name">
             <div><p id="infoC"></p>
                 <p id="infoN"></p></div>
-            <button class="in" id="singOut" onclick="singOut()">Đăng xuất</button>
+            <button class="in" id="singOut" onclick="singOut()">Log out</button>
         </div>
         <p id="score">Point: 0</p>
-        <span id="number">Số câu trả lời đúng: 0</span>
+        <span id="number">Correct answers: 0</span>
         <p id="count1"><span id="count">0</span>/10</p>
     </div>
 </div>
@@ -37,10 +38,10 @@
 <div class="main">
     <div>
         <h1 id="quiz"> Quiz Javascript</h1>
-        <button id="starBtn" disabled onclick="startGame()"> Bắt đầu</button>
+        <button id="starBtn" disabled onclick="startGame()"> Start</button>
     </div>
     <div id="hero">
-        <h1></h1>
+
         <div id="display">
 
             <div class="time"><p>Time left: <span id="timer">15</span> seconds</p></div>
@@ -74,16 +75,16 @@
         </div>
 
         <div id="gameOver" style="display: none;">
-            <h1 id="sort">Bảng điểm</h1>
+            <h1 id="sort">Table league</h1>
             <table cellspacing="10" id="ratings">
 
             </table>
-            <button class="restart" onclick="restartGame()">Làm lại</button>
+            <button class="restart" onclick="restartGame()">Play again</button>
         </div>
     </div>
 </div>
 <audio id="right" src="./bottle-205353.mp3"></audio>
 <audio id="ron" src="./level-up-2-199574.mp3"></audio>
-<script src="sd.js"></script>
+<script src="quiz.js"></script>
 </body>
 </html>

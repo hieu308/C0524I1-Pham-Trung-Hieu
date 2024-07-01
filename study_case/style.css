@@ -109,6 +109,7 @@ body {
 #sign-in {
     margin-left: 20px;
 
+
 }
 
 .in {
@@ -127,12 +128,15 @@ body {
     color: #f7f7f7;
 
 }
-
+#singIn{
+    font-weight: bolder;
+}
 #singOut {
     margin-left: 30px;
     height: 30px;
     background-color: #7184b2;
     color: #f7f7f7;
+    font-weight: bold;
 }
 
 span {

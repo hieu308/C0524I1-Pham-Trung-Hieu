@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57cbcad-e702-4a11-bb15-73c902037f65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bai_nhap/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_nhap/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/kiem_tra_mang_so_le_so_chang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/kiem_tra_mang_so_nguuyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/kt_so_chu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_them_2/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_them_2/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_them_2/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_them_2/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai_them_2/5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_nhap/nhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_nhap/nhap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_nhap/thuc_hanh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_1/odd_equal_even.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_2/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_2/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap_them/bai_3/15.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap_them/bai_3/15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/quang_ly_san_pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/quang_ly_san_pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_case_2/bottle-205353.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_case_2/level-up-2-199574.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_case_2/sd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_case_2/sds.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_case_2/ss.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +162,9 @@
       <workItem from="1719667086662" duration="11229000" />
       <workItem from="1719722303884" duration="18540000" />
       <workItem from="1719794754445" duration="12836000" />
-      <workItem from="1719815256502" duration="342000" />
+      <workItem from="1719815256502" duration="4663000" />
+      <workItem from="1719823025219" duration="5184000" />
+      <workItem from="1719839706509" duration="3346000" />
     </task>
     <servers />
   </component>
