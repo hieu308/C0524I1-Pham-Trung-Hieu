@@ -90,6 +90,9 @@
         let newName = prompt("Nhập tên điện thoại");
         let newHang = prompt("Nhập tên hãng")
         let newPrice = prompt("Nhập giá");
+        while(isNaN(newPrice)){
+            newPrice = prompt("Nhập  lại giá");
+        }
         let newProduct = new Telephone(newId, newName, newHang, newPrice);
 
         if (newId === "" || newPrice === "" || newName === "" ||  newHang === "") {
