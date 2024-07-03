@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkString(str) {
+        let result = [];
+        for (let char of str) {
+            if (!/[0-9a-zA-Z]/.test(char)) {
+                result.push(char);
+            }
+        }
+        return result;
+    }
+    let str="asdv^%3*()gfdgf"
+   let result = checkString(str);
+    console.log(result);
+</script>
+</body>
+</html>

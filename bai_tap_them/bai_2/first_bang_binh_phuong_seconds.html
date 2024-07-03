@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [1, 2, 3,3, 1, 4, 9];
+
+    function checkArr(arr) {
+        for (let i = 0; i < arr.length / 2; i++) {
+            let element = arr[arr.length / 2 + i];
+            if (arr[i] !== Math.sqrt(element)) {
+                return false;
+            }
+        }
+        return true;
+    }
+     let result =checkArr(array);
+    console.log(result)
+</script>
+</body>
+</html>

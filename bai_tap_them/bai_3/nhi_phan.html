@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script !src="">
+    function changeBinary(num) {
+
+        if (typeof num !== 'number' || isNaN(num)) {
+            throw new Error('Tham số phải là một số hợp lệ');
+        }
+
+
+        return num.toString(2);
+    }
+   let a = changeBinary(9);
+    console.log(a);
+</script>
+</body>
+</html>

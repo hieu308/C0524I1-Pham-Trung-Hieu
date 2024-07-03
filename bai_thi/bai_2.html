@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let string = prompt(`Nhập chuổi`);
+
+    function checkStr(string) {
+        let uppercase = "";
+        for (let i = 0; i < string.length; i++) {
+            if (string[i] >= "A" && string[i] <= "Z") {
+                uppercase += string[i];
+            }
+
+        }
+        if (uppercase === "") {
+            return(`The String is not contain upper char`);
+        } else {
+            return uppercase;
+        }
+
+
+    }
+
+    let result = checkStr(string);
+    alert(result);
+
+
+</script>
+</body>
+</html>

@@ -7,20 +7,18 @@
 <body>
 <script>
     let inputN = parseInt(prompt(" Nhập vào độ dài mảng:"));
-    while(!inputN){
-        inputN = parseInt(prompt(" Nhập đúng kiểu độ dài mảng:"));
-    }
+
     let array = [];
-    let inputElements;
-    for (let i = 1; i <= inputN; i++) {
-        inputElements = (prompt(`Nhập phần tử thứ ${i}`));
-        array.push(inputElements);
+
+    for (let i = 0; i < inputN; i++) {
+       array[i] = +(prompt(`Nhập phần tử thứ ${i}`));
+
     }
     console.log(array)
 
     function ascending(array) {
         for (let i = 0; i < array.length; i++) {
-            if (array[i] >array[i + 1]) {
+            if (array[i] >array[i + 1] || array[i] === array[i+1]) {
                 return false;
             }
         }
@@ -29,7 +27,7 @@
 
     function decrease(array) {
         for (let i = 0; i < array.length; i++) {
-            if (array[i] <array[i + 1]) {
+            if (array[i] <array[i + 1] || array[i] === array[i+1]) {
                 return false;
             }
         }
@@ -37,11 +35,6 @@
     }
     ascending(array) || decrease(array)?alert("ok"):alert("false");
 
-    // if (ascending(array) || decrease(array)) {
-    //     alert("ok")
-    // } else {
-    //     alert("false")
-    // }
 
 </script>
 </body>

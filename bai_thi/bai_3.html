@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputArray = [7, 8, 4, 3, 5];
+    let array2 = [];
+
+    function checkArray(array) {
+        for (let i = 0; i < array.length; i++) {
+            if (checkPrime(array[i])) {
+                array2.push(array[i]);
+            }
+        }
+    }
+
+    function checkPrime(prime) {
+        if (prime < 2 || !Number.isInteger(prime)) {
+            return false;
+        }
+        for (let i = 2; i < prime; i++) {
+            if (prime % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    checkArray(inputArray);
+
+
+    let result = array2.sort(function (a, b) {
+        return a - b;
+    });
+    document.write(` Các số nguyên tố sắp xếp theo chiều tăng dần: ${result}`);
+
+
+</script>
+</body>
+</html>

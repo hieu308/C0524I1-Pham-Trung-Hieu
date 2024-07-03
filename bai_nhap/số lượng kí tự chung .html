@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+
+  <body>
+    <script>
+      let a = "aabcc";
+      let b = "aaabc";
+      let a1 = a.split("");
+      let b2 = b.split("");
+
+      let array = [];
+      for (let i = 0; i < a1.length; i++) {
+        for (let j = 0; j < b2.length; j++) {
+          if (a1[i] === b2[j]) {
+            let newa = a1.splice(i, 1, "");
+            let newb = b2.splice(j, 1, "");
+            array.push(newa, newb);
+            break;
+          }
+        }
+      }
+      console.log(`số lần xuất hiện ${array.length / 2}`);
+    </script>
+  </body>
+</html>

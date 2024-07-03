@@ -7,32 +7,44 @@
 <body>
 <script>
 
-    let string = "ab a a ba";
-
-    function check(string) {
-        let arr = [];
-        for (let i = 0; i < string.length; i++) {
-            arr.push(string[i]);
+    // let string = "ab a a ba";
+    //
+    // function check(string) {
+    //     let arr = [];
+    //     for (let i = 0; i < string.length; i++) {
+    //         arr.push(string[i]);
+    //     }
+    //     console.log(arr);
+    //     let string2 = arr.reverse();
+    //
+    //     for (let i = 0; i < string.length; i++) {
+    //
+    //         if (string[i] !== string2[i]) {
+    //
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+    //
+    // let result = check(string);
+    // if (result) {
+    //     alert(` hai chuổi đối xứng`);
+    // } else {
+    //     alert(`  hai chuỗi không đối xứng`);
+    // }
+    let result = "day la doi xung"
+    let first = 0;
+    let seconds = array.length -1
+    while(first<seconds){
+        if(str[first]!==str[seconds]){
+            result = " ddaay ko phai"
+            break;
         }
-        console.log(arr);
-        let string2 = arr.reverse();
-
-        for (let i = 0; i < string.length; i++) {
-
-            if (string[i] !== string2[i]) {
-
-                return false;
-            }
-        }
-        return true;
+        first++
+        seconds--
     }
-
-    let result = check(string);
-    if (result) {
-        alert(` hai chuổi đối xứng`);
-    } else {
-        alert(`  hai chuỗi không đối xứng`);
-    }
+    console.log(result)
 </script>
 </body>
 </html>

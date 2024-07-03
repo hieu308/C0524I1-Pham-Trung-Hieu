@@ -6,14 +6,14 @@
 </head>
 <body>
 <script>
-    let newArray = [49, 3, 7, 5]
+    let newArray = ["b", 3,"a", 7, 5]
 
 
     function checkArray(array) {
         let char = 0;
         let number = 0;
         for (let element of array) {
-            if ("a" <= element <= "Z") {
+            if (isNaN(element)) {
                 char++;
             } else {
                 number++;

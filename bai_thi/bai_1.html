@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt(`Nhập độ dai n:`);
+    while (n !== 20) {
+        n = +prompt(`Nhập  lại độ dai n:`);
+    }
+    let array = [];
+    for (let i = 0; i < n; i++) {
+        array[i] = +prompt(`Nhập phần tử thứ ${i}`);
+    }
+    console.log(array);
+    let sum0dd = 0;
+    let sumEven = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0) {
+            sumEven += array[i];
+        } else {
+            sum0dd += array[i];
+        }
+
+    }
+    let result = sumEven - sum0dd;
+    document.write(`Hiệu tổng các số chẳng và tống các số lẻ là: ${result}`);
+</script>
+</body>
+</html>

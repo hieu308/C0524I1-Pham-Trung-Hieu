@@ -5,18 +5,31 @@
     <title>Title</title>
 </head>
 <body>
+<fieldset>
+    <legend>Thông tin cá nhân</legend>
+    <!-- Các trường input, textarea, select,... của form -->
+    <label for="name">Họ và tên:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Các trường khác của form -->
+</fieldset>
+
 <script>
-    let sout;
-    sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
-    for (i = 1; i <= 9; i++) {
-        sout = sout + "<tr>";
-        for (j = 2; j <= 9; j++) {
-            sout = sout + "<td>" + j + "x" + i + "=" + j * i + "</td>";
-        }
-        sout = sout + "</tr>";
-    }
-    sout = sout + "</table>";
-    document.write(sout);
+    // let sout;
+    // sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    // for (i = 1; i <= 9; i++) {
+    //     sout = sout + "<tr>";
+    //     for (j = 2; j <= 9; j++) {
+    //         sout = sout + "<td>" + j + "x" + i + "=" + j * i + "</td>";
+    //     }
+    //     sout = sout + "</tr>";
+    // }
+    // sout = sout + "</table>";
+    // document.write(sout);
+
 </script>
 </body>
 </html>

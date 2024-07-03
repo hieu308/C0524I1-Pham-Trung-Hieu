@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>List All Products</h1>
+<button onclick="addTelephone()">Add Telephone</button>
+<table id="table">
+
+</table>
+<script>
+    class Telephone {
+        constructor(Id, Name, hxs, price) {
+            this.Id = Id;
+            this.Name = Name;
+            this.price = price;
+        }
+
+        getId() {
+            return this.Id;
+        }
+
+        setId(Id) {
+            this.Id = Id;
+        }
+
+        getName() {
+
+            return this.Name;
+        }
+
+        setName(Name) {
+            this.Name = Name;
+        }
+
+        getHxs() {
+            return this.hxs;
+        }
+
+        setHxs(hxs) {
+            this.hxs = hxs;
+        }
+
+        getPrice() {
+            return this.price;
+        }
+
+        setPrice(price) {
+            this.price = price;
+        }
+
+    }
+
+    let listProduct = [
+        new Telephone("1DB2", "USA", "nokia", 200),
+        new Telephone("2AA32", "ChiNA", "iphone", 300),
+        new Telephone("32CF2", "VN", "Xiaomi", 400),
+    ];
+
+    function display() {
+        let table = `<tr>
+                          <th style="width: 100px" >STT</th>
+                          <th style="width: 100px">ID</th>
+                          <th style="width: 100px">Name</th>
+                          <th style="width: 100px">Price</th>
+
+
+</tr>`
+        for (let i = 0; i < listProduct.length; i++) {
+            table += `<tr>
+                           <td align="center">${i + 1}</td>
+                           <td align="center">${listProduct[i].Id}</td>
+                           <td align="center">${listProduct[i].Name}</td>
+                           <td align="center">${listProduct[i].price} $</td>
+
+
+ </tr>`
+        }
+        listProduct.sort();
+        document.getElementById("table").innerHTML = table;
+
+    }
+
+    display();
+
+    function addTelephone() {
+        let newId = prompt(`Nhập mã điện thoại:`);
+        let newName = prompt("Nhập tên điện thoại");
+        let newHang = prompt("Nhập tên hãng")
+        let newPrice = prompt("Nhập giá");
+        let newProduct = new Telephone(newId, newName, newHang, newPrice);
+
+        if (newId === "" || newPrice === "" || newName === "" ||  newHang === "") {
+            return;
+        } else {
+            listProduct.push(newProduct);
+            alert(`add product successfully`);
+            display();
+        }
+
+    }
+</script>
+</body>
+</html>
